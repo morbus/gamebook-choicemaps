@@ -1,0 +1,10 @@
+# IDE and OS files.
+.idea
+.DS_Store
+
+# External libraries not sourced.
+lib
+
+# Don't store dotgraph over and over again.
+choicemaps/*/*.html
+

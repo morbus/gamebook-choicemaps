@@ -17,7 +17,7 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 [[Continue (as Bobby Zeir)->You slump against the back of the bus stop's]]
 [[Continue (as Nathaniel Burke)->You glance down at the slip of paper]]
 [[Continue (as Samantha Levington)->Maybe it's your police training]]
-[[Continue (as Lila Anne Fairfax)->???]]
+[[Continue (as Lila Anne Fairfax)->The bus stop's only other occupant]]
 [[Continue (as Charles Laney)->It's the latest injustice in a]]
 
 ::It's not unusual or unexpected
@@ -56,6 +56,15 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 ::The man who steps out is slightly
 [[Show him your ticket->The driver looks over your ticket]]
 
+::The bus stop's only other occupant
+[[Continue->He won't say anything, though]]
+
+::He won't say anything, though
+[[Continue->A small gray motor coach pulls up in front of]]
+
+::A small gray motor coach pulls up in front of
+[[Show him your ticket->The driver looks over your ticket]]
+
 ::It's the latest injustice in a
 [[Continue->You use the wait to soak in one last]]
 
@@ -89,7 +98,7 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 [[Continue (as Bobby Zeir)->"A P.I., huh?" Silas sounds amused]]
 [[Continue (as Nathaniel Burke)->"A librarian," Silas says]]
 [[Continue (as Samantha Levington)->"No kidding," Silas says]]
-[[Continue (as Lila Anne Fairfax)->???]]
+[[Continue (as Lila Anne Fairfax)->So let me get this straight]]
 [[Continue (as Charles Laney)->Going home to your folks, huh]]
 
 ::"An antiquarian?" Silas repeats
@@ -102,6 +111,9 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 [[Continue->The motor coach rattles on]]
 
 ::"No kidding," Silas says
+[[Continue->The motor coach rattles on]]
+
+::So let me get this straight
 [[Continue->The motor coach rattles on]]
 
 ::Going home to your folks, huh
@@ -175,10 +187,14 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 [[Continue->As you head to your room]]
 
 ::As you approach, the figure [Intelligence-Check]
-[[Try to track it (pass)->???]]
-[[Try to track it (fail)->The figure moves fast, with almost]]
+[[Try to track it (pass)->The figure moves fast, with almost (1)]]
+[[Try to track it (fail)->The figure moves fast, with almost (2)]]
 
-::The figure moves fast, with almost
+::The figure moves fast, with almost (1)
+[[Follow it->???]]
+[[Turn back->You flee back down the narrow street]]
+
+::The figure moves fast, with almost (2)
 [[Return to May's house->As you head to your room]]
 
 ::As you head to your room
@@ -236,7 +252,7 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 [[Keep his attention (fail)->The strange man breaks into a run]]
 
 ::The man looks up at the village, scanning
-[[Follow him->???]]
+[[Follow him->You follow the man around the outcrop]]
 [[Turn back->Your morning exertions have left you hungry]]
 
 ::The strange man breaks into a run
@@ -255,7 +271,7 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 [[Continue->You follow the man around the outcrop]]
 
 ::You follow the man around the outcrop
-[[Turn back->???]]
+[[Turn back->Your morning exertions have left you hungry]]
 [[Go inside->With wary steps, you squeeze between]]
 
 ::With wary steps, you squeeze between [Sanity-Check]
@@ -331,8 +347,12 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 [[Enter the woods->After the miserable, enclosed streets]]
 
 ::After the miserable, enclosed streets [Intelligence-Check]
+[[Continue (as Lila Anne Fairfax)->That's the sound of a coyote]]
 [[Keep calm (pass)->The call is that of a coyote]]
 [[Keep calm (fail)->A shiver runs through you, beyond your]]
+
+::That's the sound of a coyote
+[[Continue->A second call answers the first (2)]]
 
 ::A shiver runs through you, beyond your
 [[Keep going->A second call answers the first (2)]]
@@ -366,7 +386,10 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 ::There is no guarantee that the
 [[Take a closer look->???]]
 [[Hold perfectly still->You keep your breath shallow]]
-[[Carefully retreat->???]]
+[[Carefully retreat->You've heard that bears are not]]
+
+::You've heard that bears are not
+[[Go back to the road->You return to the road and]]
 
 ::You keep your breath shallow [Athleticism-Check]
 [[Hold still (pass)->The bear doesn't seem to notice you]]
@@ -377,7 +400,7 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 
 ::You return to the road and [Intelligence-Check]
 [[Stay vigilant (pass)->You hear something from the road behind]]
-[[Stay vigilant (fail)->???]]
+[[Stay vigilant (fail)->Another cry splits the gloom]]
 
 ::You hear something from the road behind
 [[Continue->Another cry splits the gloom]]
@@ -394,8 +417,11 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 [[Go to sleep->In your dreams, the tree change position]]
 
 ::In your dreams, the tree change position [Sanity-Check]
-[[Keep it together (pass)->???]]
+[[Keep it together (pass)->Something is not right here]]
 [[Keep it together (fail)->The belt parts and you plunge]]
+
+::Something is not right here
+[[Continue->The skin of your face feels warm]]
 
 ::The belt parts and you plunge
 [[Continue->The skin of your face feels warm]]
@@ -408,8 +434,6 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 [[Keep it together (fail)->The beasts fan out around you]]
 
 ::The beasts fan out around you
-Pass: No change.
-Fail: -3 Health, -2 Sanity (@TODO: CONFIRM)
 [[Continue->The skin of your face feels warm]]
 
 ::The skin of your face feels warm
@@ -563,7 +587,10 @@ Fail: -3 Health, -2 Sanity (@TODO: CONFIRM)
 
 ::You go through the Ledbetters' drawers [Intelligence-Check]
 [[Keep looking (pass)->You notice scrapes on the floorboards]]
-[[Keep looking (fail)->???]]
+[[Keep looking (fail)->A shadow falls across you]]
+
+::A shadow falls across you
+[[Continue->The fading light from a narrow window]]
 
 ::You notice scrapes on the floorboards
 [[Venture down->The daylight barely offers enough]]
@@ -703,7 +730,7 @@ Fail: -3 Health, -2 Sanity (@TODO: CONFIRM)
 
 ::You're tired, and your flesh ought to be [Athleticism-Check]
 [[Break free (pass)->As tongues of fire lick towards you]]
-[[Break free (fail)->???]]
+[[Break free (fail)->The flames snake across the kindling]]
 
 ::The flames snake across the kindling
 [[Try to break free->Flames lick at your legs]]

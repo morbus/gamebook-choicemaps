@@ -1,0 +1,812 @@
+::StoryTitle
+Investigations in Lovecraft Country #1: Alone Against the Flames [v20180827; github.com/morbus/gamebook-choicemaps]
+
+::StoryAuthor
+MetaArcade
+
+::StorySettings
+dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNames":true}
+
+::GBCMDetails [annotation]
+
+* Choicemapper: Morbus Iff <morbus@disobey.com>
+* Passage IDs: first-words
+
+::The motor coach is late
+[[Continue (as Dr. Loretta Ghali)->It's not unusual or unexpected]]
+[[Continue (as Bobby Zeir)->You slump against the back of the bus stop's]]
+[[Continue (as Nathaniel Burke)->You glance down at the slip of paper]]
+[[Continue (as Samantha Levington)->Maybe it's your police training]]
+[[Continue (as Lila Anne Fairfax)->The bus stop's only other occupant]]
+[[Continue (as Charles Laney)->It's the latest injustice in a]]
+
+::It's not unusual or unexpected
+[[Continue->Honestly, you would be in a better mood]]
+
+::Honestly, you would be in a better mood
+[[Continue->The driver steps out of the cab]]
+
+::You take a deep breath, and remind yourself
+[[Continue->The man who steps out is slightly]]
+
+::The driver steps out of the cab
+[[Show him your ticket->The driver looks over your ticket]]
+
+::You slump against the back of the bus stop's
+[[Continue->For the hundredth time, you reconsider your]]
+
+::For the hundredth time, you reconsider your
+[[Continue->The man who steps out is in his forties]]
+
+::The man who steps out is in his forties
+[[Show him your ticket->The driver looks over your ticket]]
+
+::You glance down at the slip of paper
+[[Continue->You think, for the seventh or eight time]]
+
+::You think, for the seventh or eight time
+[[Continue->The driver steps out of the cab with none]]
+
+::The driver steps out of the cab with none
+[[Show him your ticket->The driver looks over your ticket]]
+
+::Maybe it's your police training
+[[Continue->You take a deep breath, and remind yourself]]
+
+::The man who steps out is slightly
+[[Show him your ticket->The driver looks over your ticket]]
+
+::The bus stop's only other occupant
+[[Continue->He won't say anything, though]]
+
+::He won't say anything, though
+[[Continue->A small gray motor coach pulls up in front of]]
+
+::A small gray motor coach pulls up in front of
+[[Show him your ticket->The driver looks over your ticket]]
+
+::It's the latest injustice in a
+[[Continue->You use the wait to soak in one last]]
+
+::You use the wait to soak in one last
+[[Continue->The man who steps out is a perfect example]]
+
+::The man who steps out is a perfect example
+[[Show him your ticket->The driver looks over your ticket]]
+
+::The driver looks over your ticket
+[[Continue->You hurry to stow your luggage]]
+
+::You hurry to stow your luggage
+[[Continue->The coach putters through the countryside]]
+
+::The coach putters through the countryside [Athleticism-Check]
+[[Try to keep your balance (pass)->The driver spins the wheel to avoid]]
+[[Try to keep your balance (fail)->The driver spins the wheel to avoid]]
+
+::The driver spins the wheel to avoid
+[[Catch your breath->The driver climbs back into the cab]]
+
+::The driver climbs back into the cab
+[[Continue->You resume your journey]]
+
+::You resume your journey
+[[Continue->The coach turns onto a narrower road]]
+
+::The coach turns onto a narrower road
+[[Continue (as Dr. Loretta Ghali)->"An antiquarian?" Silas repeats]]
+[[Continue (as Bobby Zeir)->"A P.I., huh?" Silas sounds amused]]
+[[Continue (as Nathaniel Burke)->"A librarian," Silas says]]
+[[Continue (as Samantha Levington)->"No kidding," Silas says]]
+[[Continue (as Lila Anne Fairfax)->So let me get this straight]]
+[[Continue (as Charles Laney)->Going home to your folks, huh]]
+
+::"An antiquarian?" Silas repeats
+[[Continue->The motor coach rattles on]]
+
+::"A P.I., huh?" Silas sounds amused
+[[Continue->The motor coach rattles on]]
+
+::"A librarian," Silas says
+[[Continue->The motor coach rattles on]]
+
+::"No kidding," Silas says
+[[Continue->The motor coach rattles on]]
+
+::So let me get this straight
+[[Continue->The motor coach rattles on]]
+
+::Going home to your folks, huh
+[[Continue->The motor coach rattles on]]
+
+::The motor coach rattles on
+[[Continue->Minutes later, a harsh stuttering from the engine]]
+
+::Minutes later, a harsh stuttering from the engine
+[[Disembark->Silas scowls down at the engine]]
+
+::Silas scowls down at the engine
+[[Continue->Silas gestures to the buildings]]
+
+::Silas gestures to the buildings [Intelligence-Check]
+[[Consider the situation (pass)->The grinding noises you heard]]
+[[Consider the situation (fail)->???]]
+
+::The grinding noises you heard
+[[Confront Silas->You confront Silas with your suspicions]]
+[[Head to May Ledbetter's->You drag your cases]]
+
+::You confront Silas with your suspicions
+[[Go to May Ledbetter's->You drag your cases]]
+
+::You drag your cases
+[[Knock on the door->After a moment, you hear footsteps]]
+
+::After a moment, you hear footsteps
+[[Ask about her rates->Oh, you'll find them very reasonable]]
+
+::Oh, you'll find them very reasonable
+[[Say yes->Well now, I suppose the festival is]]
+[[Explain your situation->May shakes her head]]
+
+::Well now, I suppose the festival is
+[[Continue->We've got the Beacon, you see]]
+
+::We've got the Beacon, you see
+[[Settle in for the night->The room May leads you to is]]
+
+::May shakes her head
+[[Continue->With living here, though, we can't afford]]
+
+::With living here, though, we can't afford
+[[Continue->The room May leads you to is]]
+
+::The room May leads you to is
+[[Keep chatting->May talks about life in Emberhead]]
+[[Walk around town->May's brow creases when you announce]]
+[[Turn in early->As you head to your room]]
+
+::May talks about life in Emberhead [Appearance-Check]
+[[Put her at ease (pass)->As the hour wears on, May's upbeat manner]]
+[[Put her at ease (fail)->???]]
+
+::As the hour wears on, May's upbeat manner
+[[Continue->As you head to your room]]
+
+::May's brow creases when you announce
+[[Explore->May's street is a narrow passage hemmed]]
+
+::May's street is a narrow passage hemmed
+[[Continue->An ink-black figure stands in the road]]
+
+::An ink-black figure stands in the road
+[[Go back to May's->You flee back down the narrow street]]
+[[Chase the figure->As you approach, the figure]]
+
+::You flee back down the narrow street
+[[Continue->As you head to your room]]
+
+::As you approach, the figure [Intelligence-Check]
+[[Try to track it (pass)->The figure moves fast, with almost (1)]]
+[[Try to track it (fail)->The figure moves fast, with almost (2)]]
+
+::The figure moves fast, with almost (1)
+[[Follow it->???]]
+[[Turn back->You flee back down the narrow street]]
+
+::The figure moves fast, with almost (2)
+[[Return to May's house->As you head to your room]]
+
+::As you head to your room
+[[Say hello->The eyes blink]]
+
+::The eyes blink
+[[Continue->You dream of fire in the grate]]
+
+::You dream of fire in the grate
+[[Continue->It doesn't take you long to freshen up]]
+
+::It doesn't take you long to freshen up
+[[Go meet Silas->Hopefully, Silas has repaired the motor coach]]
+
+::Hopefully, Silas has repaired the motor coach
+[[Continue->A passing villager notices your bags]]
+
+::A passing villager notices your bags
+[[Continue->May is doing laundry]]
+
+::May is doing laundry
+[[Ask for leads->Nobody here has anything like a car]]
+
+::Nobody here has anything like a car
+[[Explore the village->You wander the streets of Emberhead (1)]]
+
+::You wander the streets of Emberhead (1)
+[[Go to the general store->The general store's shopkeeper is a]]
+[[Go to the village hall->The village hall backs against a cliff]]
+[[Go see the artisans->The artisans' courtyard is the busiest location]]
+
+::The general store's shopkeeper is a
+[[Leave the store->You wander the streets of Emberhead (2)]]
+
+::The village hall backs against a cliff
+[[Continue->You wander the streets of Emberhead (2)]]
+
+::The artisans' courtyard is the busiest location [Intelligence-Check]
+[[Explore (pass)->One of the workshops is shut up]]
+[[Explore (fail)->You move among the artisans, chatting]]
+
+::One of the workshops is shut up
+[[Go somewhere else->You wander the streets of Emberhead (2)]]
+
+::You move among the artisans, chatting
+[[Go somewhere else->You wander the streets of Emberhead (2)]]
+
+::You wander the streets of Emberhead (2)
+[[Go to the eastern road->The air is fresh and the walk down to the]]
+[[Go to the metal structure->You walk up the most central of the]]
+[[Go to the the church->You draw into the shadows of the church]]
+
+::The air is fresh and the walk down to the [Appearance-Check]
+[[Keep his attention (pass)->The man looks up at the village, scanning]]
+[[Keep his attention (fail)->The strange man breaks into a run]]
+
+::The man looks up at the village, scanning
+[[Follow him->You follow the man around the outcrop]]
+[[Turn back->Your morning exertions have left you hungry]]
+
+::The strange man breaks into a run
+[[Turn back->Your morning exertions have left you hungry]]
+[[Follow him->You break from the road and pursue]]
+
+::You break from the road and pursue [Athleticism-Check]
+[[Keep up (pass)->You draw close to the man]]
+[[Keep up (fail)->You round an outcrop to find the man has]]
+
+::You round an outcrop to find the man has
+[[Search carefully->???]]
+[[Give up->Your morning exertions have left you hungry]]
+
+::You draw close to the man
+[[Continue->You follow the man around the outcrop]]
+
+::You follow the man around the outcrop
+[[Turn back->Your morning exertions have left you hungry]]
+[[Go inside->With wary steps, you squeeze between]]
+
+::With wary steps, you squeeze between [Sanity-Check]
+[[Hold back a scream (pass)->Some of the man's face remains]]
+[[Hold back a scream (fail)->???]]
+
+::Some of the man's face remains
+[[Say it was the festival->???]]
+[[Tell him the truth->That swollen mouth gives a little twist]]
+
+::That swollen mouth gives a little twist
+[[Continue->Arbogast fixes you with a lopsided]]
+
+::Arbogast fixes you with a lopsided
+[[Continue->Abruptly, his gaze turns to iron]]
+
+::Abruptly, his gaze turns to iron
+[[Continue->Arbogast's voice rises to a fever pitch]]
+
+::Arbogast's voice rises to a fever pitch
+[[Ask about the Abenaki->???]]
+[[Ask about the Old Ones->???]]
+[[Ask about the villages->Arbogast's face twists, creasing the]]
+
+::Arbogast's face twists, creasing the
+[[Continue->Arbogast glares at the cave ceiling]]
+
+::Arbogast glares at the cave ceiling [Clue-The-Twisted-Pariah]
+[[Continue->Arbogast pauses in the shadows]]
+
+::Arbogast pauses in the shadows
+[[Continue->Your morning exertions have left you hungry]]
+
+::You walk up the most central of the
+[[Continue->The structure, by contrast, is made from]]
+
+::The structure, by contrast, is made from
+[[Go somewhere else->Your morning exertions have left you hungry]]
+[[Examine it further->An older gentleman passes, looking up]]
+
+::An older gentleman passes, looking up [Intelligence-Check]
+[[Watch closely (pass)->As you walk away from the iron structure]]
+[[Watch closely (fail)->???]]
+
+::As you walk away from the iron structure
+[[Continue->Your morning exertions have left you hungry]]
+
+::You draw into the shadows of the church
+[[Leave->Your morning exertions have left you hungry]]
+
+::Your morning exertions have left you hungry
+[[Greet her->As she reaches you, she stops]]
+
+::As she reaches you, she stops
+[[Continue->May approaches, wrapping an arm]]
+
+::May approaches, wrapping an arm
+[[Ask Ruth what she meant->You crouch down and ask Ruth]]
+[[Ask May what Ruth meant->You ask May why Ruth wants you to leave]]
+[[Go back to the house->You take your leave of the Ledbetters]]
+
+::You crouch down and ask Ruth
+[[Go back to the house->You take your leave of the Ledbetters]]
+
+::You ask May why Ruth wants you to leave
+[[Go back to the house->You take your leave of the Ledbetters]]
+
+::You take your leave of the Ledbetters
+[[Leave town->You take money, water, and]]
+[[Talk to Mr. Winters->You walk along Silbury Street towards]]
+
+::You take money, water, and
+[[Enter the woods->After the miserable, enclosed streets]]
+
+::After the miserable, enclosed streets [Intelligence-Check]
+[[Continue (as Lila Anne Fairfax)->That's the sound of a coyote]]
+[[Keep calm (pass)->The call is that of a coyote]]
+[[Keep calm (fail)->A shiver runs through you, beyond your]]
+
+::That's the sound of a coyote
+[[Continue->A second call answers the first (2)]]
+
+::A shiver runs through you, beyond your
+[[Keep going->A second call answers the first (2)]]
+[[Turn back->A second call answers the first (1)]]
+
+::The call is that of a coyote
+[[Continue->A second call answers the first (2)]]
+
+::A second call answers the first (1)
+[[Go see Mr. Winters->You walk along Silbury Street towards]]
+
+::A second call answers the first (2)
+[[Head up the hill->The gentle incline is misleading, and your]]
+[[Take the shortcut->You set off along the track and make]]
+[[Stick to the road->There is no guarantee that the]]
+
+::The gentle incline is misleading, and your [Intelligence-Check]
+[[Admire the view (pass)->???]]
+[[Admire the view (fail)->You feel a sting of self-doubt at the]]
+
+::You feel a sting of self-doubt at the
+[[Go back to the road->You return to the road and]]
+
+::You set off along the track and make [Athleticism-Check]
+[[Try to catch yourself (pass)->A root snags your ankle, and you]]
+[[Try to catch yourself (fail)->???]]
+
+::A root snags your ankle, and you
+[[Continue->You return to the road and]]
+
+::There is no guarantee that the
+[[Take a closer look->???]]
+[[Hold perfectly still->You keep your breath shallow]]
+[[Carefully retreat->You've heard that bears are not]]
+
+::You've heard that bears are not
+[[Go back to the road->You return to the road and]]
+
+::You keep your breath shallow [Athleticism-Check]
+[[Hold still (pass)->The bear doesn't seem to notice you]]
+[[Hold still (fail)->???]]
+
+::The bear doesn't seem to notice you
+[[Go back to the road->You return to the road and]]
+
+::You return to the road and [Intelligence-Check]
+[[Stay vigilant (pass)->You hear something from the road behind]]
+[[Stay vigilant (fail)->Another cry splits the gloom]]
+
+::You hear something from the road behind
+[[Continue->Another cry splits the gloom]]
+
+::Another cry splits the gloom
+[[Take refuge in a tree->The echoing call comes again]]
+[[Keep moving->Unappealing as it is to keep walking]]
+
+::The echoing call comes again [Athleticism-Check]
+[[Climb (pass)->You ease yourself onto the widest branch]]
+[[Climb (fail)->???]]
+
+::You ease yourself onto the widest branch
+[[Go to sleep->In your dreams, the tree change position]]
+
+::In your dreams, the tree change position [Sanity-Check]
+[[Keep it together (pass)->Something is not right here]]
+[[Keep it together (fail)->The belt parts and you plunge]]
+
+::Something is not right here
+[[Continue->The skin of your face feels warm]]
+
+::The belt parts and you plunge
+[[Continue->The skin of your face feels warm]]
+
+::Unappealing as it is to keep walking
+[[Continue->The eerie howls draw closer]]
+
+::The eerie howls draw closer [Sanity-Check]
+[[Keep it together (pass)->???]]
+[[Keep it together (fail)->The beasts fan out around you]]
+
+::The beasts fan out around you
+[[Continue->The skin of your face feels warm]]
+
+::The skin of your face feels warm
+[[Continue->May comes into focus]]
+
+::May comes into focus
+[[Continue->The Ledbetter kitchen is empty]]
+
+::You walk along Silbury Street towards
+[[Knock on the door->You raise your hand to knock on the]]
+[[Read the noticeboards->One noticeboard appears to be for]]
+
+::You raise your hand to knock on the
+[[Enter his office->You step through the door marked]]
+
+::One noticeboard appears to be for [Intelligence-Check]
+[[Look closely (pass)->As the afternoon sun hits the floor]]
+[[Look closely (fail)->The door scrapes behind you]]
+
+::As the afternoon sun hits the floor
+[[Continue->The door scrapes behind you]]
+
+::The door scrapes behind you
+[[Step inside->You step through the door marked]]
+
+::You step through the door marked
+[[Ask about the telegraph->The telegraph? Mmm. Much as we]]
+[[Make small talk first->The pot begins to gurgle as you]]
+
+::The pot begins to gurgle as you
+[[Continue->And someone must accept responsibility]]
+
+::And someone must accept responsibility
+[[Ask about the telegraph->The telegraph? Mmm. Much as we]]
+
+::The telegraph? Mmm. Much as we
+[[Tell him you've asked->Winters looks sympathetic but unsurprised]]
+
+::Winters looks sympathetic but unsurprised
+[[Thank him and leave->As the light fades you return to the Ledbetter]]
+[[Ask about his library->You make a small but fluttering remark about]]
+
+::You make a small but fluttering remark about
+[[Continue->You scan the shelves]]
+
+::You scan the shelves
+[[Stay and read->Winters is happy for you to spend the rest]]
+[[Thank him and leave->As the light fades you return to the Ledbetter]]
+
+::Winters is happy for you to spend the rest
+[[The history of the area->???]]
+[[The festival->You are not surprised to find there is no]]
+[[The sciences->The volumes you select from the science section seem]]
+[[Some of the weird fiction->Winter raises an eyebrow when you settle down with]]
+
+::You are not surprised to find there is no
+[[Continue->There is some discussion of the struggle between]]
+
+::There is some discussion of the struggle between
+[[Continue->The afternoon wears on]]
+
+::The volumes you select from the science section seem
+[[Continue->Furthermore, there is another seasonal change in the]]
+
+::Furthermore, there is another seasonal change in the
+[[Continue->The afternoon wears on]]
+
+::Winter raises an eyebrow when you settle down with
+[[Continue->The afternoon wears on]]
+
+::The afternoon wears on [Appearance-Check]
+[[Ask if you can stay (pass)->I'm happy to leave you in charge for a]]
+[[Ask if you can stay (fail)->???]]
+
+::I'm happy to leave you in charge for a [Intelligence-Check]
+[[Examine the bookshelves (pass)->???]]
+[[Examine the bookshelves (fail)->Soon enough, the door opens and Winters re-enters]]
+
+::Soon enough, the door opens and Winters re-enters
+[[Head back to May's->As the light fades you return to the Ledbetter]]
+
+::As the light fades you return to the Ledbetter
+[[Go meet Arbogast (with Clue-The-Twisted-Pariah)->???]]
+[[Speak to Ruth->In time, May returns to the kitchen]]
+[[Go stargazing->You stroll the streets of Emberhead]]
+
+::In time, May returns to the kitchen [Appearance-Check]
+[[Persuade her (pass)->Well... I suppose it will only take a few]]
+[[Persuade her (fail)->May frowns and shakes her head]]
+
+::Well... I suppose it will only take a few
+[[Continue->The conviction in her eyes is chilling]]
+
+::The conviction in her eyes is chilling
+[[Go to your room->The familiar surroundings of your guest room]]
+
+::May frowns and shakes her head
+[[Go to your room->The familiar surroundings of your guest room]]
+
+::You stroll the streets of Emberhead
+[[Pursue the figures->You advance on one of the figures, calling]]
+[[Return to your room->The familiar surroundings of your guest room]]
+
+::You advance on one of the figures, calling
+[[Continue->The familiar surroundings of your guest room]]
+
+::The familiar surroundings of your guest room
+[[Go to sleep->Your eyelids are heavy and whatever your]]
+[[Stay awake->Sleep presses down on you]]
+
+::Your eyelids are heavy and whatever your
+[[Wake up->You drift awake in the morning light]]
+
+::You drift awake in the morning light
+[[Continue->The Ledbetter kitchen is empty]]
+
+::Sleep presses down on you
+[[Wrench the door open->May stands on the other side, wrapped in]]
+[[Pretend to be asleep->You slide onto the bed and lie on your]]
+
+::May stands on the other side, wrapped in
+[[Go to sleep->You awaken to the sound of feet in the]]
+
+::You slide onto the bed and lie on your
+[[Confront May->May jumps as you swing your legs off the]]
+[[Wait and watch->After another few moments, May glances]]
+
+::May jumps as you swing your legs off the [Appearance-Check]
+[[Get her to talk (pass)->???]]
+[[Get her to talk (fail)->Anger flashes in May's eyes]]
+
+::Anger flashes in May's eyes
+[[Stay awake all night->???]]
+[[Go to sleep->You awaken to the sound of feet in the]]
+
+::After another few moments, May glances [Intelligence-Check]
+[[Investigate the powder (pass)->The distinctive whiff from the powder]]
+[[Investigate the powder (fail)->???]]
+
+::The distinctive whiff from the powder
+[[Stay awake all night->???]]
+[[Go to sleep->You awaken to the sound of feet in the]]
+
+::You awaken to the sound of feet in the
+[[Continue->The Ledbetter kitchen is empty]]
+
+::The Ledbetter kitchen is empty
+[[Wander around town->You make a quiet circuit of the]]
+
+::You make a quiet circuit of the
+[[Search May's bedroom->Despite her hospitality, you do not]]
+[[Visit the artisans->You approach around the back of the]]
+
+::Despite her hospitality, you do not [Intelligence-Check]
+[[Keep looking (pass)->You notice scrapes on the floorboards]]
+[[Keep looking (fail)->You go through the Ledbetters' drawers]]
+
+::You go through the Ledbetters' drawers [Intelligence-Check]
+[[Keep looking (pass)->You notice scrapes on the floorboards]]
+[[Keep looking (fail)->A shadow falls across you]]
+
+::A shadow falls across you
+[[Continue->The fading light from a narrow window]]
+
+::You notice scrapes on the floorboards
+[[Venture down->The daylight barely offers enough]]
+[[Leave->The villagers are still hard at work]]
+
+::The daylight barely offers enough [Clue-May's-Secret]
+[[Go back outside->The villagers are still hard at work]]
+
+::You approach around the back of the
+[[Go somewhere else->The villagers are still hard at work]]
+[[Pick the padlock->You examine the padlock. It is old and]]
+[[Break down the door->You examine the workshop]]
+
+::You examine the padlock. It is old and [Intelligence-Check]
+[[Try to pick the lock (pass)->???]]
+[[Try to pick the lock (fail)->No luck. You step back from the door]]
+
+::No luck. You step back from the door
+[[Continue->The villagers are still hard at work]]
+
+::You examine the workshop [Athleticism-Check]
+[[Try to break the door (pass)->You push aside the door and step inside]]
+[[Try to break the door (fail)->No luck. You step back from the door]]
+
+::You push aside the door and step inside
+[[Leave this place->The villagers are still hard at work]]
+[[Investigate further->???]]
+
+::The villagers are still hard at work
+[[Go to the village hall->Keeping away from the streets, you skirt]]
+[[Spy on the beacon->The northern side of the village is bustling]]
+
+::Keeping away from the streets, you skirt
+[[Enter->Your eye is immediately drawn to the rows of]]
+
+::Your eye is immediately drawn to the rows of [Intelligence-Check]
+[[Examine the books (pass)->You're looking along the spines when you]]
+[[Examine the books (fail)->The answer is, apparently, nothing]]
+
+::The answer is, apparently, nothing
+[[Leave town hall->The town is practically deserted]]
+
+::You're looking along the spines when you
+[[Leave->The town is practically deserted]]
+[[Enter the secret alcove->You squint into the darkness behind the]]
+
+::You squint into the darkness behind the [Clue-Cloaked-in-Night]
+[[Open a window->Enough light spills into the room for you to]]
+[[Grab a robe and leave->You slip from the building, clutching a]]
+
+::Enough light spills into the room for you to [Intelligence-Check]
+[[Examine the books (pass)->Most of the texts are too obscure for]]
+[[Examine the books (fail)->???]]
+
+::Most of the texts are too obscure for
+[[Continue->Towards the end, there is a discussion of]]
+
+::Towards the end, there is a discussion of
+[[Play it safe and leave->???]]
+[[Memorize "Call Ye..."->???]]
+[[Memorize "Command Ye..."->You try to commit the wording of "Command Ye]]
+
+::You try to commit the wording of "Command Ye [Clue-Command-Ye-Celestial-Flames]
+[[Continue->Tempting as it is to keep the book]]
+
+::Tempting as it is to keep the book [Athleticism-Check]
+[[Jump (pass)->With a burst of speed, you dart through the]]
+[[Jump (fail)->???]]
+
+::With a burst of speed, you dart through the
+[[Continue->The town is practically deserted]]
+
+::You slip from the building, clutching a
+[[Go back into town->The town is practically deserted]]
+
+::The northern side of the village is bustling [Athleticism-Check]
+[[Keep moving (pass)->The turf sinks beneath your feet]]
+[[Keep moving (fail)->???]]
+
+::The turf sinks beneath your feet
+[[Continue->You lie concealed in the grass]]
+
+::You lie concealed in the grass
+[[Continue->The town is practically deserted]]
+
+::The town is practically deserted
+[[Escape on the east road->As you approach the southern road]]
+
+::As you approach the southern road
+[[Talk your way past->The southern group appears less sharp]]
+
+::The southern group appears less sharp [Appearance-Check]
+[[Persuade them (pass)->Your impatience is convincing, and finally]]
+[[Persuade them (fail)->These locals are not as stupid as]]
+
+::Your impatience is convincing, and finally
+[[Escape->The sun is low in the sky as you head east]]
+
+::The sun is low in the sky as you head east [Athleticism-Check]
+[[Hide (pass)->???]]
+[[Hide (fail)->You press yourself against the biggest trunk]]
+
+::You press yourself against the biggest trunk
+[[Stand and fight->???]]
+[[Run away->Leaves slap at your face as you flee]]
+
+::Leaves slap at your face as you flee
+[[Keep moving->You emerge onto a hilltop and take a moment]]
+
+::You emerge onto a hilltop and take a moment [Clue-Alone-Against-the-Flames]
+[[Continue->The longer you stare, the more your]]
+
+::The longer you stare, the more your [End]
+
+::These locals are not as stupid as
+[[Continue->The fading light from a narrow window]]
+
+::The fading light from a narrow window
+[[Drink->You drink from the cup]]
+[[Knock the cup away->You use the side of your head to]]
+
+::You drink from the cup
+[[Continue->As the light fades outside, your little prison]]
+
+::You use the side of your head to
+[[Continue->As the light fades outside, your little prison]]
+
+::As the light fades outside, your little prison
+[[Continue->The door scrapes, wrenching you back into]]
+
+::The door scrapes, wrenching you back into
+[[Continue->You try to drag yourself away, but they]]
+
+::You try to drag yourself away, but they
+[[Continue->The procession down The Approach is]]
+
+::The procession down The Approach is
+[[Continue->As you reach the cleared area around the Beacon]]
+
+::As you reach the cleared area around the Beacon [Appearance-Check]
+[[Pay attention (pass)->Through your sacrifice the village will be]]
+[[Pay attention (fail)->Through your sacrifice the village will be]]
+
+::Through your sacrifice the village will be
+[[Continue->As you arrive beneath the beacon, ten villagers]]
+
+::As you arrive beneath the beacon, ten villagers
+[[Continue->The village sings now, something rhythmic]]
+
+::The village sings now, something rhythmic
+[[Continue->A man steps up on a dais and raises]]
+
+::A man steps up on a dais and raises
+[[Continue->You will be taken by the]]
+
+::You will be taken by the
+[[Try to break free->You're tired, and your flesh ought to be]]
+[[Keep still->The flames snake across the kindling (1)]]
+
+::You're tired, and your flesh ought to be [Athleticism-Check]
+[[Break free (pass)->As tongues of fire lick towards you]]
+[[Break free (fail)->The flames snake across the kindling (1)]]
+
+::The flames snake across the kindling (1)
+[[Use a chant (with Clue-Command-Ye-Celestial-Flames)->The flames snake across the kindling (2)]]
+[[Try to break free->Flames lick at your legs]]
+
+::The flames snake across the kindling (2)
+[[Use a chant from the book->EMPTY_NODE]]
+
+::EMPTY_NODE
+[[Use 'Command Ye...'->You clear your throat and begin the]]
+
+::You clear your throat and begin the [Intelligence-Check]
+[[Exert your will (pass)->The stars are alive]]
+[[Exert your will (fail)->???]]
+
+::The stars are alive
+[[Leave->???]]
+[[Set you free->???]]
+[[Destroy the villagers->The smoke shifts for a moment and you see]]
+
+::The smoke shifts for a moment and you see [Clue-Blaze-of-Glory]
+[[Continue->Horror sweeps through the crowd]]
+
+::Horror sweeps through the crowd [End]
+
+::Flames lick at your legs [Athleticism-Check]
+[[Break free (pass)->???]]
+[[Break free (fail)->The chains give a little more]]
+
+::The chains give a little more [End]
+
+::As tongues of fire lick towards you [Athleticism-Check]
+[[Avoid capture (pass)->You slither from the grasp of the youths]]
+[[Avoid capture (fail)->They bear you back into the center of the]]
+
+::You slither from the grasp of the youths
+[[Continue->You leap from the conflagration on the far side]]
+
+::You leap from the conflagration on the far side
+[[Crawl to safety->With the villages assembled at the Beacon]]
+
+::With the villages assembled at the Beacon
+[[Watch the ritual->???]]
+[[Ride out of town->It takes a moment to recapture the skill]]
+
+::It takes a moment to recapture the skill [Clue-Alone-Against-the-Flames]
+[[Continue->Twenty minutes later, with no signs of pursuit]]
+
+::Twenty minutes later, with no signs of pursuit [End]
+
+::They bear you back into the center of the [End]

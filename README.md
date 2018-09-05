@@ -21,7 +21,7 @@ grunt package
 
 ```bash
 twee2 \
- build --format=lib/dotgraph/dist/Twine2/online/DotGraph/
+ build --format=lib/dotgraph/dist/Twine2/online/DotGraph/ \
  choicemaps/TITLE/TITLE.tw2 \
  choicemaps/TITLE/TITLE.html
 ```

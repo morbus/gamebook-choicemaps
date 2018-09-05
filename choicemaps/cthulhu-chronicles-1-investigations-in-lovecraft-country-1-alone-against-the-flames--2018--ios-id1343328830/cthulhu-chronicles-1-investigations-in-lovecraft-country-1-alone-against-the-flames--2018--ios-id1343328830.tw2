@@ -15,7 +15,7 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 ::The motor coach is late
 [[Continue (as Dr. Loretta Ghali)->It's not unusual or unexpected]]
 [[Continue (as Bobby Zeir)->You slump against the back of the bus stop's]]
-[[Continue (as Nathaniel Burke)->???]]
+[[Continue (as Nathaniel Burke)->You glance down at the slip of paper]]
 [[Continue (as Samantha Levington)->Maybe it's your police training]]
 [[Continue (as Lila Anne Fairfax)->???]]
 [[Continue (as Charles Laney)->It's the latest injustice in a]]
@@ -39,6 +39,15 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 [[Continue->The man who steps out is in his forties]]
 
 ::The man who steps out is in his forties
+[[Show him your ticket->The driver looks over your ticket]]
+
+::You glance down at the slip of paper
+[[Continue->You think, for the seventh or eight time]]
+
+::You think, for the seventh or eight time
+[[Continue->The driver steps out of the cab with none]]
+
+::The driver steps out of the cab with none
 [[Show him your ticket->The driver looks over your ticket]]
 
 ::Maybe it's your police training
@@ -78,7 +87,7 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 ::The coach turns onto a narrower road
 [[Continue (as Dr. Loretta Ghali)->"An antiquarian?" Silas repeats]]
 [[Continue (as Bobby Zeir)->"A P.I., huh?" Silas sounds amused]]
-[[Continue (as Nathaniel Burke)->???]]
+[[Continue (as Nathaniel Burke)->"A librarian," Silas says]]
 [[Continue (as Samantha Levington)->"No kidding," Silas says]]
 [[Continue (as Lila Anne Fairfax)->???]]
 [[Continue (as Charles Laney)->Going home to your folks, huh]]
@@ -87,6 +96,9 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 [[Continue->The motor coach rattles on]]
 
 ::"A P.I., huh?" Silas sounds amused
+[[Continue->The motor coach rattles on]]
+
+::"A librarian," Silas says
 [[Continue->The motor coach rattles on]]
 
 ::"No kidding," Silas says
@@ -233,7 +245,11 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 
 ::You break from the road and pursue [Athleticism-Check]
 [[Keep up (pass)->You draw close to the man]]
-[[Keep up (fail)->???]]
+[[Keep up (fail)->You round an outcrop to find the man has]]
+
+::You round an outcrop to find the man has
+[[Search carefully->???]]
+[[Give up->Your morning exertions have left you hungry]]
 
 ::You draw close to the man
 [[Continue->You follow the man around the outcrop]]
@@ -430,9 +446,9 @@ Fail: -3 Health, -2 Sanity (@TODO: CONFIRM)
 [[Ask about the telegraph->The telegraph? Mmm. Much as we]]
 
 ::The telegraph? Mmm. Much as we
-[[Tell him you've asked->Winters look sympathetic but unsurprised]]
+[[Tell him you've asked->Winters looks sympathetic but unsurprised]]
 
-::Winters look sympathetic but unsurprised
+::Winters looks sympathetic but unsurprised
 [[Thank him and leave->As the light fades you return to the Ledbetter]]
 [[Ask about his library->You make a small but fluttering remark about]]
 
@@ -446,8 +462,14 @@ Fail: -3 Health, -2 Sanity (@TODO: CONFIRM)
 ::Winters is happy for you to spend the rest
 [[The history of the area->???]]
 [[The festival->???]]
-[[The sciences->???]]
+[[The sciences->The volumes you select from the science section seem]]
 [[Some of the weird fiction->Winter raises an eyebrow when you settle down with]]
+
+::The volumes you select from the science section seem
+[[Continue->Furthermore, there is another seasonal change in the]]
+
+::Furthermore, there is another seasonal change in the
+[[Continue->The afternoon wears on]]
 
 ::Winter raises an eyebrow when you settle down with
 [[Continue->The afternoon wears on]]
@@ -458,9 +480,9 @@ Fail: -3 Health, -2 Sanity (@TODO: CONFIRM)
 
 ::I'm happy to leave you in charge for a [Intelligence-Check]
 [[Examine the bookshelves (pass)->???]]
-[[Examine the bookshelves (fail)->Sure enough, the door opens and Winters re-enters]]
+[[Examine the bookshelves (fail)->Soon enough, the door opens and Winters re-enters]]
 
-::Sure enough, the door opens and Winters re-enters
+::Soon enough, the door opens and Winters re-enters
 [[Head back to May's->As the light fades you return to the Ledbetter]]
 
 ::As the light fades you return to the Ledbetter
@@ -482,8 +504,11 @@ Fail: -3 Health, -2 Sanity (@TODO: CONFIRM)
 [[Go to your room->The familiar surroundings of your guest room]]
 
 ::You stroll the streets of Emberhead
-[[Pursue the figures->???]]
+[[Pursue the figures->You advance on one of the figures, calling]]
 [[Return to your room->The familiar surroundings of your guest room]]
+
+::You advance on one of the figures, calling
+[[Continue->The familiar surroundings of your guest room]]
 
 ::The familiar surroundings of your guest room
 [[Go to sleep->Your eyelids are heavy and whatever your]]
@@ -503,8 +528,16 @@ Fail: -3 Health, -2 Sanity (@TODO: CONFIRM)
 [[Go to sleep->You awaken to the sound of feet in the]]
 
 ::You slide onto the bed and lie on your
-[[Confront May->???]]
+[[Confront May->May jumps as you swing your legs off the]]
 [[Wait and watch->After another few moments, May glances]]
+
+::May jumps as you swing your legs off the [Appearance-Check]
+[[Get her to talk (pass)->???]]
+[[Get her to talk (fail)->Anger flashes in May's eyes]]
+
+::Anger flashes in May's eyes
+[[Stay awake all night->???]]
+[[Go to sleep->You awaken to the sound of feet in the]]
 
 ::After another few moments, May glances [Intelligence-Check]
 [[Investigate the powder (pass)->The distinctive whiff from the powder]]
@@ -553,7 +586,7 @@ Fail: -3 Health, -2 Sanity (@TODO: CONFIRM)
 
 ::You examine the workshop [Athleticism-Check]
 [[Try to break the door (pass)->You push aside the door and step inside]]
-[[Try to break the door (fail)->???]]
+[[Try to break the door (fail)->No luck. You step back from the door]]
 
 ::You push aside the door and step inside
 [[Leave this place->The villagers are still hard at work]]

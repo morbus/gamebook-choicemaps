@@ -220,8 +220,11 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 [[Go meet Silas->Hopefully, Silas has repaired the motor coach]]
 
 ::A few villagers watch with polite curiosity [Intelligence-Check]
-[[[Look closer (pass)->???]]
+[[[Look closer (pass)->Your keen eyes pick it up after a couple of]]
 [[[Look closer (fail)->You search for any sign of a secret route]]
+
+::Your keen eyes pick it up after a couple of [Clue-Secret-Stairway]
+[[Go meet Silas->Hopefully, Silas has repaired the motor coach]]
 
 ::You search for any sign of a secret route
 [[Go meet Silas->Hopefully, Silas has repaired the motor coach]]
@@ -297,7 +300,10 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 
 ::With wary steps, you squeeze between [Sanity-Check]
 [[Hold back a scream (pass)->Some of the man's face remains]]
-[[Hold back a scream (fail)->???]]
+[[Hold back a scream (fail)->The scream tears free of your mouth before]]
+
+::The scream tears free of your mouth before
+[[Continue->Some of the man's face remains]]
 
 ::Some of the man's face remains
 [[Say it was the festival->That swollen mouth gives a little twist]]
@@ -313,9 +319,12 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 [[Continue->Arbogast's voice rises to a fever pitch]]
 
 ::Arbogast's voice rises to a fever pitch
-[[Ask about the Abenaki->???]]
+[[Ask about the Abenaki->"The Abenaki?" He frowns.]]
 [[Ask about the Old Ones->A smile of sickly rapture comes over Arbogast's]]
 [[Ask about the villages->Arbogast's face twists, creasing the]]
+
+::"The Abenaki?" He frowns.
+[[Continue->Arbogast pauses in the shadows]]
 
 ::A smile of sickly rapture comes over Arbogast's
 [[Continue->Just when you think the sermon is over, he]]
@@ -411,9 +420,13 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 [[Continue->You return to the road and]]
 
 ::There is no guarantee that the
-[[Take a closer look->???]]
+[[Take a closer look->You slink towards the bear, trying to]]
 [[Hold perfectly still->You keep your breath shallow]]
 [[Carefully retreat->You've heard that bears are not]]
+
+::You slink towards the bear, trying to [Athleticism-Check]
+[[Be stealthy (pass)->The bear doesn't seem to notice you]]
+[[Be stealthy (fail)->???]]
 
 ::You've heard that bears are not
 [[Go back to the road->You return to the road and]]
@@ -696,8 +709,11 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 [[Continue->The dim light of the room disappears completely]]
 
 ::The dim light of the room disappears completely
-[[Surrender->???]]
+[[Surrender->Hoping to avoid seeing any more dead bodies]]
 [[Fight back->You step up to square off against the huge]]
+
+::Hoping to avoid seeing any more dead bodies
+[[Continue->The fading light from a narrow window]]
 
 ::You step up to square off against the huge [Fight]
 [[Fight (pass)->After a grueling exchange, you land a decisive]]
@@ -862,7 +878,7 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 
 ::The flames snake across the kindling (2)
 [[Use Arbogast's chant->The flames draw closer as you bring Arbogast's]]
-[[Use a chant from the book->EMPTY_NODE (SIC)]]
+[[Use a chant from the book->EMPTY NODE (SIC)]]
 
 ::The flames draw closer as you bring Arbogast's
 [[Continue->The swirling tongues of fire around you stop]]
@@ -872,14 +888,14 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 
 ::Though your body is bound to the Beacon [Clue-Blaze-of-Glory End]
 
-::EMPTY_NODE (SIC)
+::EMPTY NODE (SIC)
 [[Use 'Call Ye...' (with Clue-Call-Ye-Celestial-Flames)->You clear your throat and begin the]]
 [[Use 'Command Ye...' (with Clue-Command-Ye-Celestial-Flames)->You clear your throat and begin the]]
 
 ::You clear your throat and begin the [Intelligence-Check]
 [[Continue (with Clue-Call-Ye-Celestial-Flames)->The flames catch your clothes and you are]]
-[[Exert your will (pass)->The stars are alive]]
-[[Exert your will (fail)->???]]
+[[Exert your will (with Clue-Command-Ye-Celestial-Flames) (pass)->The stars are alive]]
+[[Exert your will (with Clue-Command-Ye-Celestial-Flames) (fail)->???]]
 
 ::The flames catch your clothes and you are [End]
 

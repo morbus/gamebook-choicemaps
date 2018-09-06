@@ -168,7 +168,10 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 
 ::May talks about life in Emberhead [Appearance-Check]
 [[Put her at ease (pass)->As the hour wears on, May's upbeat manner]]
-[[Put her at ease (fail)->???]]
+[[Put her at ease (fail)->As the hour wears on, you are amused to hear]]
+
+::As the hour wears on, you are amused to hear
+[[Continue->As you head to your room]]
 
 ::As the hour wears on, May's upbeat manner
 [[Continue->As you head to your room]]
@@ -277,9 +280,13 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 [[Keep up (pass)->You draw close to the man]]
 [[Keep up (fail)->You round an outcrop to find the man has]]
 
-::You round an outcrop to find the man has
-[[Search carefully->???]]
+::You round an outcrop to find the man has [Intelligence-Check]
+[[Search carefully (pass)->???]]
+[[Search carefully (fail)->After a while, you're forced to admit]]
 [[Give up->Your morning exertions have left you hungry]]
+
+::After a while, you're forced to admit
+[[Head back to town->Your morning exertions have left you hungry]]
 
 ::You draw close to the man
 [[Continue->You follow the man around the outcrop]]
@@ -531,6 +538,7 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 [[Continue->The afternoon wears on]]
 
 ::The afternoon wears on [Appearance-Check]
+[[Continue->I'm happy to leave you in charge for a]]
 [[Ask if you can stay (pass)->I'm happy to leave you in charge for a]]
 [[Ask if you can stay (fail)->???]]
 
@@ -556,8 +564,21 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 [[Continue->It is a ritual of control. They know the]]
 
 ::It is a ritual of control. They know the
-[[Learn the chant->???]]
+[[Learn the chant->You feel very dislocated from reality, as you]]
 [[Decline->Alarm flares in those eyes as you stand]]
+
+::You feel very dislocated from reality, as you [Clue-Arbogast's-Chant]
+[[Practice the chant->In time, Arbogast listens to your recital and]]
+
+::In time, Arbogast listens to your recital and [Athleticism-Check]
+[[Stay sharp (pass)->???]]
+[[Stay sharp (fail)->Something smashes you on the temple]]
+
+::Something smashes you on the temple
+[[Continue->You awake with a jolt, wrestling the blankets]]
+
+::You awake with a jolt, wrestling the blankets
+[[Continue->The Ledbetter kitchen is empty]]
 
 ::Alarm flares in those eyes as you stand
 [[Go to your room->The familiar surroundings of your guest room]]
@@ -623,7 +644,11 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 [[Continue->The Ledbetter kitchen is empty]]
 
 ::The Ledbetter kitchen is empty
+[[Check on Arbogast's body (with Clue-Arbogast's-Chant])->You feel skittish as you approach the]]
 [[Wander around town->You make a quiet circuit of the]]
+
+::You feel skittish as you approach the
+[[Head back to town->You make a quiet circuit of the]]
 
 ::You make a quiet circuit of the
 [[Search May's bedroom->Despite her hospitality, you do not]]
@@ -830,12 +855,22 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 [[Break free (fail)->The flames snake across the kindling (1)]]
 
 ::The flames snake across the kindling (1)
+[[Use a chant (with Clue-Arbogast's-Chant)->The flames snake across the kindling (2)]]
 [[Use a chant (with Clue-Call-Ye-Celestial-Flames)->The flames snake across the kindling (2)]]
 [[Use a chant (with Clue-Command-Ye-Celestial-Flames)->The flames snake across the kindling (2)]]
 [[Try to break free->Flames lick at your legs]]
 
 ::The flames snake across the kindling (2)
+[[Use Arbogast's chant->The flames draw closer as you bring Arbogast's]]
 [[Use a chant from the book->EMPTY_NODE (SIC)]]
+
+::The flames draw closer as you bring Arbogast's
+[[Continue->The swirling tongues of fire around you stop]]
+
+::The swirling tongues of fire around you stop
+[[Continue->Though your body is bound to the Beacon]]
+
+::Though your body is bound to the Beacon [Clue-Blaze-of-Glory End]
 
 ::EMPTY_NODE (SIC)
 [[Use 'Call Ye...' (with Clue-Call-Ye-Celestial-Flames)->You clear your throat and begin the]]

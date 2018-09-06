@@ -191,8 +191,14 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 [[Try to track it (fail)->The figure moves fast, with almost (2)]]
 
 ::The figure moves fast, with almost (1)
-[[Follow it->???]]
+[[Follow it->The dark figure swings its head to stare at]]
 [[Turn back->You flee back down the narrow street]]
+
+::The dark figure swings its head to stare at [Clue-Over-the-Edge]
+[[Head back to May's->Your mind is a whirlwind of thoughts and]]
+
+::Your mind is a whirlwind of thoughts and
+[[Go to your room->As you head to your room]]
 
 ::The figure moves fast, with almost (2)
 [[Return to May's house->As you head to your room]]
@@ -207,6 +213,14 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 [[Continue->It doesn't take you long to freshen up]]
 
 ::It doesn't take you long to freshen up
+[[Investigate the cliff (with Clue-Over-the-Edge)->A few villagers watch with polite curiosity]]
+[[Go meet Silas->Hopefully, Silas has repaired the motor coach]]
+
+::A few villagers watch with polite curiosity [Intelligence-Check]
+[[[Look closer (pass)->???]]
+[[[Look closer (fail)->You search for any sign of a secret route]]
+
+::You search for any sign of a secret route
 [[Go meet Silas->Hopefully, Silas has repaired the motor coach]]
 
 ::Hopefully, Silas has repaired the motor coach
@@ -279,7 +293,7 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 [[Hold back a scream (fail)->???]]
 
 ::Some of the man's face remains
-[[Say it was the festival->???]]
+[[Say it was the festival->That swollen mouth gives a little twist]]
 [[Tell him the truth->That swollen mouth gives a little twist]]
 
 ::That swollen mouth gives a little twist
@@ -293,8 +307,14 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 
 ::Arbogast's voice rises to a fever pitch
 [[Ask about the Abenaki->???]]
-[[Ask about the Old Ones->???]]
+[[Ask about the Old Ones->A smile of sickly rapture comes over Arbogast's]]
 [[Ask about the villages->Arbogast's face twists, creasing the]]
+
+::A smile of sickly rapture comes over Arbogast's
+[[Continue->Just when you think the sermon is over, he]]
+
+::Just when you think the sermon is over, he
+[[Continue->Arbogast pauses in the shadows]]
 
 ::Arbogast's face twists, creasing the
 [[Continue->Arbogast glares at the cave ceiling]]
@@ -484,10 +504,16 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 [[Thank him and leave->As the light fades you return to the Ledbetter]]
 
 ::Winters is happy for you to spend the rest
-[[The history of the area->???]]
+[[The history of the area->There is no single book on the history of]]
 [[The festival->You are not surprised to find there is no]]
 [[The sciences->The volumes you select from the science section seem]]
 [[Some of the weird fiction->Winter raises an eyebrow when you settle down with]]
+
+::There is no single book on the history of
+[[Continue->The region was caught up in King George's War, and]]
+
+::The region was caught up in King George's War, and
+[[Continue->The afternoon wears on]]
 
 ::You are not surprised to find there is no
 [[Continue->There is some discussion of the struggle between]]
@@ -516,9 +542,25 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 [[Head back to May's->As the light fades you return to the Ledbetter]]
 
 ::As the light fades you return to the Ledbetter
-[[Go meet Arbogast (with Clue-The-Twisted-Pariah)->???]]
+[[Go meet Arbogast (with Clue-The-Twisted-Pariah)->Arbogast is not at the appointed meeting]]
 [[Speak to Ruth->In time, May returns to the kitchen]]
 [[Go stargazing->You stroll the streets of Emberhead]]
+
+::Arbogast is not at the appointed meeting
+[[Continue->Arbogast leads you across the throroughfares]]
+
+::Arbogast leads you across the throroughfares
+[[Continue->Again you feel uncomfortable in proximity to that]]
+
+::Again you feel uncomfortable in proximity to that
+[[Continue->It is a ritual of control. They know the]]
+
+::It is a ritual of control. They know the
+[[Learn the chant->???]]
+[[Decline->Alarm flares in those eyes as you stand]]
+
+::Alarm flares in those eyes as you stand
+[[Go to your room->The familiar surroundings of your guest room]]
 
 ::In time, May returns to the kitchen [Appearance-Check]
 [[Persuade her (pass)->Well... I suppose it will only take a few]]
@@ -611,7 +653,7 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 [[Break down the door->You examine the workshop]]
 
 ::You examine the padlock. It is old and [Intelligence-Check]
-[[Try to pick the lock (pass)->???]]
+[[Try to pick the lock (pass)->You push aside the door and step inside]]
 [[Try to pick the lock (fail)->No luck. You step back from the door]]
 
 ::No luck. You step back from the door
@@ -623,7 +665,22 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 
 ::You push aside the door and step inside
 [[Leave this place->The villagers are still hard at work]]
-[[Investigate further->???]]
+[[Investigate further->You approach the red-shrouded figures, expecting]]
+
+::You approach the red-shrouded figures, expecting
+[[Continue->The dim light of the room disappears completely]]
+
+::The dim light of the room disappears completely
+[[Surrender->???]]
+[[Fight back->You step up to square off against the huge]]
+
+::You step up to square off against the huge [Fight]
+[[Fight (pass)->After a grueling exchange, you land a decisive]]
+[[Fight (fail)->???]]
+
+::After a grueling exchange, you land a decisive
+[[Ask about the bodies->???]]
+[[Leave him->The villagers are still hard at work]]
 
 ::The villagers are still hard at work
 [[Go to the village hall->Keeping away from the streets, you skirt]]
@@ -633,8 +690,13 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 [[Enter->Your eye is immediately drawn to the rows of]]
 
 ::Your eye is immediately drawn to the rows of [Intelligence-Check]
+[[Examine the glued books->You recall the three glued-together books you]]
 [[Examine the books (pass)->You're looking along the spines when you]]
 [[Examine the books (fail)->The answer is, apparently, nothing]]
+
+::You recall the three glued-together books you
+[[Leave->???]]
+[[Enter the secret alcove->You squint into the darkness behind the]]
 
 ::The answer is, apparently, nothing
 [[Leave town hall->The town is practically deserted]]
@@ -649,15 +711,22 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 
 ::Enough light spills into the room for you to [Intelligence-Check]
 [[Examine the books (pass)->Most of the texts are too obscure for]]
-[[Examine the books (fail)->???]]
+[[Examine the books (fail)->The more you try to make sense of the]]
+
+::The more you try to make sense of the [Intelligence-Check]
+[[Try again (pass)->Most of the texts are too obscure for]]
+[[Try again (fail)->???]]
 
 ::Most of the texts are too obscure for
 [[Continue->Towards the end, there is a discussion of]]
 
 ::Towards the end, there is a discussion of
 [[Play it safe and leave->???]]
-[[Memorize "Call Ye..."->???]]
+[[Memorize "Call Ye..."->You try to commit the wording of "Call Ye]]
 [[Memorize "Command Ye..."->You try to commit the wording of "Command Ye]]
+
+::You try to commit the wording of "Call Ye [Clue-Call-Ye-Celestial-Flames]
+[[Leave town hall->Tempting as it is to keep the book]]
 
 ::You try to commit the wording of "Command Ye [Clue-Command-Ye-Celestial-Flames]
 [[Continue->Tempting as it is to keep the book]]
@@ -761,18 +830,23 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 [[Break free (fail)->The flames snake across the kindling (1)]]
 
 ::The flames snake across the kindling (1)
+[[Use a chant (with Clue-Call-Ye-Celestial-Flames)->The flames snake across the kindling (2)]]
 [[Use a chant (with Clue-Command-Ye-Celestial-Flames)->The flames snake across the kindling (2)]]
 [[Try to break free->Flames lick at your legs]]
 
 ::The flames snake across the kindling (2)
-[[Use a chant from the book->EMPTY_NODE]]
+[[Use a chant from the book->EMPTY_NODE (SIC)]]
 
-::EMPTY_NODE
-[[Use 'Command Ye...'->You clear your throat and begin the]]
+::EMPTY_NODE (SIC)
+[[Use 'Call Ye...' (with Clue-Call-Ye-Celestial-Flames)->You clear your throat and begin the]]
+[[Use 'Command Ye...' (with Clue-Command-Ye-Celestial-Flames)->You clear your throat and begin the]]
 
 ::You clear your throat and begin the [Intelligence-Check]
+[[Continue (with Clue-Call-Ye-Celestial-Flames)->The flames catch your clothes and you are]]
 [[Exert your will (pass)->The stars are alive]]
 [[Exert your will (fail)->???]]
+
+::The flames catch your clothes and you are [End]
 
 ::The stars are alive
 [[Leave->???]]

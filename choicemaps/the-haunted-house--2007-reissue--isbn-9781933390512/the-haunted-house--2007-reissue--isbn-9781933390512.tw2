@@ -8,10 +8,9 @@ R. A. Montgomery
 dotgraph:{"color":"bw","countWords":false,"omitTags":["annotation"],"showNodeNames":true}
 
 ::GBCMDetails [annotation]
-
-* Choicemapper: Morbus Iff <morbus@disobey.com>
-* Demian's Gamebook Web Page: <https://gamebooks.org/Item/570>
-* Passage IDs: page-numbers
+  * Choicemapper: Morbus Iff <morbus@disobey.com>
+  * Demian's Gamebook Web Page: <https://gamebooks.org/Item/570>
+  * Passage IDs: page-numbers
 
 ::1
 [[2]]

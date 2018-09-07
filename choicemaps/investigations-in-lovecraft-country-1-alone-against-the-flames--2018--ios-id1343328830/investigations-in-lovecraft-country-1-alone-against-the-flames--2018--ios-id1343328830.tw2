@@ -8,9 +8,9 @@ MetaArcade
 dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNames":true}
 
 ::GBCMDetails [annotation]
-
-* Choicemapper: Morbus Iff <morbus@disobey.com>
-* Passage IDs: first-words
+  * Choicemapper: Morbus Iff <morbus@disobey.com>
+  * Demian's Gamebook Web Page: ???
+  * Passage IDs: first-words
 
 ::The motor coach is late
 [[Continue (as Dr. Loretta Ghali)->It's not unusual or unexpected]]
@@ -350,7 +350,10 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 
 ::An older gentleman passes, looking up [Intelligence-Check]
 [[Watch closely (pass)->As you walk away from the iron structure]]
-[[Watch closely (fail)->???]]
+[[Watch closely (fail)->The strange melted structure is inscrutable]]
+
+::The strange melted structure is inscrutable
+[[Leave->Your morning exertions have left you hungry]]
 
 ::As you walk away from the iron structure
 [[Continue->Your morning exertions have left you hungry]]
@@ -406,8 +409,11 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 [[Stick to the road->There is no guarantee that the]]
 
 ::The gentle incline is misleading, and your [Intelligence-Check]
-[[Admire the view (pass)->???]]
+[[Admire the view (pass)->The position of the sun bothers you]]
 [[Admire the view (fail)->You feel a sting of self-doubt at the]]
+
+::The position of the sun bothers you
+[[Go back to the road->You return to the road and]]
 
 ::You feel a sting of self-doubt at the
 [[Go back to the road->You return to the road and]]
@@ -768,7 +774,7 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 [[Continue->Towards the end, there is a discussion of]]
 
 ::Towards the end, there is a discussion of
-[[Play it safe and leave->???]]
+[[Play it safe and leave->The town is practically deserted]]
 [[Memorize "Call Ye..."->You try to commit the wording of "Call Ye]]
 [[Memorize "Command Ye..."->You try to commit the wording of "Command Ye]]
 

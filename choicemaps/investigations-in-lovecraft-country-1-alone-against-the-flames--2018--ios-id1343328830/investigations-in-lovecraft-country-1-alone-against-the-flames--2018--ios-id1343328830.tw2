@@ -1,5 +1,5 @@
 ::StoryTitle
-Investigations in Lovecraft Country #1: Alone Against the Flames [v20180827; github.com/morbus/gamebook-choicemaps]
+Investigations in Lovecraft Country #1: Alone Against the Flames — v20180827 @ github.com/morbus/gamebook-choicemaps
 
 ::StoryAuthor
 MetaArcade
@@ -130,7 +130,7 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 
 ::Silas gestures to the buildings [Intelligence-Check]
 [[Consider the situation (pass)->The grinding noises you heard]]
-[[Consider the situation (fail)->???]]
+[[Consider the situation (fail)->???_CONSIDER_THE_SITUATION_FAIL]]
 
 ::The grinding noises you heard
 [[Confront Silas->You confront Silas with your suspicions]]
@@ -284,7 +284,7 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 [[Keep up (fail)->You round an outcrop to find the man has]]
 
 ::You round an outcrop to find the man has [Intelligence-Check]
-[[Search carefully (pass)->???]]
+[[Search carefully (pass)->???_SEARCH_CAREFULLY_PASS]]
 [[Search carefully (fail)->After a while, you're forced to admit]]
 [[Give up->Your morning exertions have left you hungry]]
 
@@ -420,7 +420,7 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 
 ::You set off along the track and make [Athleticism-Check]
 [[Try to catch yourself (pass)->A root snags your ankle, and you]]
-[[Try to catch yourself (fail)->???]]
+[[Try to catch yourself (fail)->???_TRY_TO_CATCH_YOURSELF_FAIL]]
 
 ::A root snags your ankle, and you
 [[Continue->You return to the road and]]
@@ -432,14 +432,14 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 
 ::You slink towards the bear, trying to [Athleticism-Check]
 [[Be stealthy (pass)->The bear doesn't seem to notice you]]
-[[Be stealthy (fail)->???]]
+[[Be stealthy (fail)->???_BE_STEALTHY_FAIL]]
 
 ::You've heard that bears are not
 [[Go back to the road->You return to the road and]]
 
 ::You keep your breath shallow [Athleticism-Check]
 [[Hold still (pass)->The bear doesn't seem to notice you]]
-[[Hold still (fail)->???]]
+[[Hold still (fail)->???_HOLD_STILL_FAIL]]
 
 ::The bear doesn't seem to notice you
 [[Go back to the road->You return to the road and]]
@@ -457,7 +457,7 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 
 ::The echoing call comes again [Athleticism-Check]
 [[Climb (pass)->You ease yourself onto the widest branch]]
-[[Climb (fail)->???]]
+[[Climb (fail)->???_CLIMB_FAIL]]
 
 ::You ease yourself onto the widest branch
 [[Go to sleep->In your dreams, the tree change position]]
@@ -562,10 +562,10 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 ::The afternoon wears on [Appearance-Check]
 [[Continue->I'm happy to leave you in charge for a]]
 [[Ask if you can stay (pass)->I'm happy to leave you in charge for a]]
-[[Ask if you can stay (fail)->???]]
+[[Ask if you can stay (fail)->???_ASK_IF_YOU_CAN_STAY_FAIL]]
 
 ::I'm happy to leave you in charge for a [Intelligence-Check]
-[[Examine the bookshelves (pass)->???]]
+[[Examine the bookshelves (pass)->???_EXAMINE_THE_BOOKSHELVES_PASS]]
 [[Examine the bookshelves (fail)->Soon enough, the door opens and Winters re-enters]]
 
 ::Soon enough, the door opens and Winters re-enters
@@ -593,7 +593,7 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 [[Practice the chant->In time, Arbogast listens to your recital and]]
 
 ::In time, Arbogast listens to your recital and [Athleticism-Check]
-[[Stay sharp (pass)->???]]
+[[Stay sharp (pass)->???_STAY_SHARP_PASS]]
 [[Stay sharp (fail)->Something smashes you on the temple]]
 
 ::Something smashes you on the temple
@@ -647,19 +647,19 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 [[Wait and watch->After another few moments, May glances]]
 
 ::May jumps as you swing your legs off the [Appearance-Check]
-[[Get her to talk (pass)->???]]
+[[Get her to talk (pass)->???_GET_HER_TO_TALK_PASS]]
 [[Get her to talk (fail)->Anger flashes in May's eyes]]
 
 ::Anger flashes in May's eyes
-[[Stay awake all night->???]]
+[[Stay awake all night->???_STAY_AWAKE_ALL_NIGHT]]
 [[Go to sleep->You awaken to the sound of feet in the]]
 
 ::After another few moments, May glances [Intelligence-Check]
 [[Investigate the powder (pass)->The distinctive whiff from the powder]]
-[[Investigate the powder (fail)->???]]
+[[Investigate the powder (fail)->???_INVESTIGATE_THE_POWDER_FAIL]]
 
 ::The distinctive whiff from the powder
-[[Stay awake all night->???]]
+[[Stay awake all night->???_STAY_AWAKE_ALL_NIGHT]]
 [[Go to sleep->You awaken to the sound of feet in the]]
 
 ::You awaken to the sound of feet in the
@@ -726,7 +726,7 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 
 ::You step up to square off against the huge [Fight]
 [[Fight (pass)->After a grueling exchange, you land a decisive]]
-[[Fight (fail)->???]]
+[[Fight (fail)->???_FIGHT_FAIL]]
 
 ::After a grueling exchange, you land a decisive
 [[Ask about the bodies->The artisan sniffs, trying to clear his nose of]]
@@ -748,7 +748,7 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 [[Examine the books (fail)->The answer is, apparently, nothing]]
 
 ::You recall the three glued-together books you
-[[Leave->???]]
+[[Leave->???_LEAVE_THE_VILLAGE_HALL]]
 [[Enter the secret alcove->You squint into the darkness behind the]]
 
 ::The answer is, apparently, nothing
@@ -768,7 +768,7 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 
 ::The more you try to make sense of the [Intelligence-Check]
 [[Try again (pass)->Most of the texts are too obscure for]]
-[[Try again (fail)->???]]
+[[Try again (fail)->???_TRY_AGAIN_FAIL]]
 
 ::Most of the texts are too obscure for
 [[Continue->Towards the end, there is a discussion of]]
@@ -786,7 +786,7 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 
 ::Tempting as it is to keep the book [Athleticism-Check]
 [[Jump (pass)->With a burst of speed, you dart through the]]
-[[Jump (fail)->???]]
+[[Jump (fail)->???_JUMP_FAIL]]
 
 ::With a burst of speed, you dart through the
 [[Continue->The town is practically deserted]]
@@ -796,7 +796,7 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 
 ::The northern side of the village is bustling [Athleticism-Check]
 [[Keep moving (pass)->The turf sinks beneath your feet]]
-[[Keep moving (fail)->???]]
+[[Keep moving (fail)->???_KEEP_MOVING_FAIL]]
 
 ::The turf sinks beneath your feet
 [[Continue->You lie concealed in the grass]]
@@ -818,11 +818,11 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 [[Escape->The sun is low in the sky as you head east]]
 
 ::The sun is low in the sky as you head east [Athleticism-Check]
-[[Hide (pass)->???]]
+[[Hide (pass)->???_HIDE_PASS]]
 [[Hide (fail)->You press yourself against the biggest trunk]]
 
 ::You press yourself against the biggest trunk
-[[Stand and fight->???]]
+[[Stand and fight->???_STAND_AND_FIGHT]]
 [[Run away->Leaves slap at your face as you flee]]
 
 ::Leaves slap at your face as you flee
@@ -907,13 +907,13 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 ::You clear your throat and begin the [Intelligence-Check]
 [[Continue (with Clue-Call-Ye-Celestial-Flames)->The flames catch your clothes and you are]]
 [[Exert your will (with Clue-Command-Ye-Celestial-Flames) (pass)->The stars are alive]]
-[[Exert your will (with Clue-Command-Ye-Celestial-Flames) (fail)->???]]
+[[Exert your will (with Clue-Command-Ye-Celestial-Flames) (fail)->???_EXERT_YOUR_WILL_COMMAND_YE_FAIL]]
 
 ::The flames catch your clothes and you are [End]
 
 ::The stars are alive
-[[Leave->???]]
-[[Set you free->???]]
+[[Leave->???_LEAVE_THE_VILLAGE]]
+[[Set you free->???_SET_YOU_FREE]]
 [[Destroy the villagers->The smoke shifts for a moment and you see]]
 
 ::The smoke shifts for a moment and you see [Clue-Blaze-of-Glory]
@@ -922,7 +922,7 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 ::Horror sweeps through the crowd [End]
 
 ::Flames lick at your legs [Athleticism-Check]
-[[Break free (pass)->???]]
+[[Break free (pass)->???_BREAK_FREE_PASS]]
 [[Break free (fail)->The chains give a little more]]
 
 ::The chains give a little more [End]
@@ -938,7 +938,7 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 [[Crawl to safety->With the villages assembled at the Beacon]]
 
 ::With the villages assembled at the Beacon
-[[Watch the ritual->???]]
+[[Watch the ritual->???_WATCH_THE_RITUAL]]
 [[Ride out of town->It takes a moment to recapture the skill]]
 
 ::It takes a moment to recapture the skill [Clue-Alone-Against-the-Flames]

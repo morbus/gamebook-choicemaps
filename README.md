@@ -35,3 +35,4 @@ twee2 \
 * When it comes to apps, we need more details in the title or GBCMDetails metadata.
 * We should detail the allowed valuesa for GBCMDetails in the README.md.
 * Alphabetize tags when "Color by tag" is enabled?
+* Rebuild the-haunted-house with the new header?

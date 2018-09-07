@@ -470,8 +470,11 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 [[Continue->The eerie howls draw closer]]
 
 ::The eerie howls draw closer [Sanity-Check]
-[[Keep it together (pass)->???]]
+[[Keep it together (pass)->Even as the beasts fan out around you, and]]
 [[Keep it together (fail)->The beasts fan out around you]]
+
+::Even as the beasts fan out around you, and
+[[Continue->The skin of your face feels warm]]
 
 ::The beasts fan out around you
 [[Continue->The skin of your face feels warm]]
@@ -720,8 +723,11 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 [[Fight (fail)->???]]
 
 ::After a grueling exchange, you land a decisive
-[[Ask about the bodies->???]]
+[[Ask about the bodies->The artisan sniffs, trying to clear his nose of]]
 [[Leave him->The villagers are still hard at work]]
+
+::The artisan sniffs, trying to clear his nose of
+[[Continue->The villagers are still hard at work]]
 
 ::The villagers are still hard at work
 [[Go to the village hall->Keeping away from the streets, you skirt]]

@@ -1,4 +1,8 @@
 
+# Maintainer
+
+* Morbus Iff <<morbus@disobey.com>>
+
 # Dependency installation
 
 ```bash

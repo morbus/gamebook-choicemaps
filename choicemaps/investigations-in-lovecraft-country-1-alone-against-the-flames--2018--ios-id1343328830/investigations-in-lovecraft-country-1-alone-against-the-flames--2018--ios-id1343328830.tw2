@@ -1,5 +1,5 @@
 ::StoryTitle
-Investigations in Lovecraft Country #1: Alone Against the Flames — v20180827 @ github.com/morbus/gamebook-choicemaps
+Investigations in Lovecraft Country #1: Alone Against the Flames (2018) -- iOS id1343328830 -- github.com/morbus/gamebook-choicemaps -- v20180908
 
 ::StoryAuthor
 MetaArcade
@@ -8,9 +8,12 @@ MetaArcade
 dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNames":true}
 
 ::GBCMDetails [annotation]
-  * Choicemapper: Morbus Iff <morbus@disobey.com>
   * Demian's Gamebook Web Page: ???
+  * Choicemapper: Morbus Iff <morbus@disobey.com>
   * Passage IDs: first-words
+
+::Start
+[[The motor coach is late]]
 
 ::The motor coach is late
 [[Continue (as Dr. Loretta Ghali)->It's not unusual or unexpected]]
@@ -329,7 +332,7 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 ::A smile of sickly rapture comes over Arbogast's
 [[Continue->Just when you think the sermon is over, he]]
 
-::Just when you think the sermon is over, he
+::Just when you think the sermon is over, he [Clue-The-Twisted-Pariah]
 [[Continue->Arbogast pauses in the shadows]]
 
 ::Arbogast's face twists, creasing the
@@ -565,8 +568,11 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 [[Ask if you can stay (fail)->???_ASK_IF_YOU_CAN_STAY_FAIL]]
 
 ::I'm happy to leave you in charge for a [Intelligence-Check]
-[[Examine the bookshelves (pass)->???_EXAMINE_THE_BOOKSHELVES_PASS]]
+[[Examine the bookshelves (pass)->As you scan the shelves, you try to move on]]
 [[Examine the bookshelves (fail)->Soon enough, the door opens and Winters re-enters]]
+
+::As you scan the shelves, you try to move on [Clue-Trusted-Patron]
+[[Continue->Soon enough, the door opens and Winters re-enters]]
 
 ::Soon enough, the door opens and Winters re-enters
 [[Head back to May's->As the light fades you return to the Ledbetter]]
@@ -647,8 +653,12 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 [[Wait and watch->After another few moments, May glances]]
 
 ::May jumps as you swing your legs off the [Appearance-Check]
-[[Get her to talk (pass)->???_GET_HER_TO_TALK_PASS]]
+[[Get her to talk (pass)->You block May's exit and demand to know what]]
 [[Get her to talk (fail)->Anger flashes in May's eyes]]
+
+::You block May's exit and demand to know what
+[[Stay awake all night->???_STAY_AWAKE_ALL_NIGHT]]
+[[Go to sleep->You awaken to the sound of feet in the]]
 
 ::Anger flashes in May's eyes
 [[Stay awake all night->???_STAY_AWAKE_ALL_NIGHT]]
@@ -743,12 +753,12 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 [[Enter->Your eye is immediately drawn to the rows of]]
 
 ::Your eye is immediately drawn to the rows of [Intelligence-Check]
-[[Examine the glued books->You recall the three glued-together books you]]
+[[Examine the glued books (with Clue-Trusted-Patron)->You recall the three glued-together books you]]
 [[Examine the books (pass)->You're looking along the spines when you]]
 [[Examine the books (fail)->The answer is, apparently, nothing]]
 
 ::You recall the three glued-together books you
-[[Leave->???_LEAVE_THE_VILLAGE_HALL]]
+[[Leave->The town is practically deserted]]
 [[Enter the secret alcove->You squint into the darkness behind the]]
 
 ::The answer is, apparently, nothing

@@ -1,5 +1,5 @@
 ::StoryTitle
-The Haunted House (2007 reissue; ISBN 9781933390512) — v20180114 @ github.com/morbus/gamebook-choicemaps
+The Haunted House (2007 reissue) -- ISBN 9781933390512 -- github.com/morbus/gamebook-choicemaps -- v20180908
 
 ::StoryAuthor
 R. A. Montgomery
@@ -8,9 +8,12 @@ R. A. Montgomery
 dotgraph:{"color":"bw","countWords":false,"omitTags":["annotation"],"showNodeNames":true}
 
 ::GBCMDetails [annotation]
-  * Choicemapper: Morbus Iff <morbus@disobey.com>
   * Demian's Gamebook Web Page: <https://gamebooks.org/Item/570>
+  * Choicemapper: Morbus Iff <morbus@disobey.com>
   * Passage IDs: page-numbers
+
+::Start
+[[1]]
 
 ::1
 [[2]]

@@ -1,194 +1,197 @@
-digraph "The Haunted House (2007 reissue; ISBN 9781933390512) [v20180112; github.com/morbus/gamebook-choicemaps]" {
+digraph "The Haunted House (2007 reissue) -- ISBN 9781933390512 -- github.com/morbus/gamebook-choicemaps -- v20180908" {
 rankdir=TB
 
 
-"1" [shape=doublecircle style="filled,bold" tooltip="4"]
+"Start" [shape=doublecircle style="filled,bold" tooltip="4"]
+"Start" -> "1"
+
+"1" [tooltip="5"]
 "1" -> "2"
 
-"2" [tooltip="5"]
+"2" [tooltip="6"]
 "2" -> "3"
 
-"3" [tooltip="6"]
+"3" [tooltip="7"]
 "3" -> "4"
 
-"4" [tooltip="7"]
+"4" [tooltip="8"]
 "4" -> "7"
 "4" -> "11"
 
-"6" [tooltip="8"]
+"6" [tooltip="9"]
 "6" -> "23"
 "6" -> "37"
 
-"7" [tooltip="9"]
+"7" [tooltip="10"]
 "7" -> "15"
 "7" -> "17"
 
-"8" [tooltip="10"]
+"8" [tooltip="11"]
 "8" -> "20"
 "8" -> "21"
 
-"9" [tooltip="11"]
+"9" [tooltip="12"]
 "9" -> "10"
 
-"10" [tooltip="12"]
+"10" [tooltip="13"]
 "10" -> "64"
 
-"11" [tooltip="13"]
+"11" [tooltip="14"]
 "11" -> "12"
 
-"12" [tooltip="14"]
+"12" [tooltip="15"]
 "12" -> "8"
 "12" -> "14"
 
-"14" [tooltip="15"]
+"14" [tooltip="16"]
 "14" -> "6"
 "14" -> "16"
 
-"15" [tooltip="16"]
+"15" [tooltip="17"]
 "15" -> "26"
 "15" -> "28"
 
-"16" [tooltip="17"]
+"16" [tooltip="18"]
 "16" -> "48"
 
-"17" [tooltip="18"]
+"17" [tooltip="19"]
 "17" -> "31"
 "17" -> "45"
 
-"18" [tooltip="19"]
+"18" [tooltip="20"]
 "18" -> "50"
 "18" -> "69"
 
-"20" [tooltip="20"]
+"20" [tooltip="21"]
 "20" -> "33"
 "20" -> "71"
 
-"21" [tooltip="21"]
+"21" [tooltip="22"]
 "21" -> "22"
 
-"22" [tooltip="22"]
+"22" [tooltip="23"]
 "22" -> "25"
 
-"23" [tooltip="23"]
+"23" [tooltip="24"]
 "23" -> "43"
 "23" -> "47"
 
-"24" [shape=egg style="filled,bold" tooltip="24"]
+"24" [shape=egg style="filled,bold" tooltip="25"]
 
-"25" [tooltip="25"]
+"25" [tooltip="26"]
 "25" -> "35"
 "25" -> "67"
 
-"26" [tooltip="26"]
+"26" [tooltip="27"]
 "26" -> "27"
 
-"27" [tooltip="27"]
+"27" [tooltip="28"]
 "27" -> "55"
 
-"28" [tooltip="28"]
+"28" [tooltip="29"]
 "28" -> "59"
 
-"29" [shape=egg style="filled,bold" tooltip="29"]
+"29" [shape=egg style="filled,bold" tooltip="30"]
 
-"31" [tooltip="30"]
+"31" [tooltip="31"]
 "31" -> "61"
 
-"33" [tooltip="31"]
+"33" [tooltip="32"]
 "33" -> "34"
 
-"34" [tooltip="32"]
+"34" [tooltip="33"]
 "34" -> "63"
 "34" -> "68"
 
-"35" [tooltip="33"]
+"35" [tooltip="34"]
 "35" -> "36"
 
-"36" [shape=egg style="filled,bold" tooltip="34"]
+"36" [shape=egg style="filled,bold" tooltip="35"]
 
-"37" [tooltip="35"]
+"37" [tooltip="36"]
 "37" -> "38"
 
-"38" [tooltip="36"]
+"38" [tooltip="37"]
 "38" -> "9"
 
-"39" [tooltip="37"]
+"39" [tooltip="38"]
 "39" -> "40"
 
-"40" [tooltip="38"]
+"40" [tooltip="39"]
 "40" -> "41"
 
-"41" [tooltip="39"]
+"41" [tooltip="40"]
 "41" -> "42"
 
-"42" [shape=egg style="filled,bold" tooltip="40"]
+"42" [shape=egg style="filled,bold" tooltip="41"]
 
-"43" [tooltip="41"]
+"43" [tooltip="42"]
 "43" -> "44"
 
-"44" [shape=egg style="filled,bold" tooltip="42"]
+"44" [shape=egg style="filled,bold" tooltip="43"]
 
-"45" [tooltip="43"]
+"45" [tooltip="44"]
 "45" -> "24"
 "45" -> "29"
 
-"47" [shape=egg style="filled,bold" tooltip="44"]
+"47" [shape=egg style="filled,bold" tooltip="45"]
 
-"48" [tooltip="45"]
+"48" [tooltip="46"]
 "48" -> "18"
 "48" -> "39"
 "48" -> "70"
 
-"49" [shape=egg style="filled,bold" tooltip="46"]
+"49" [shape=egg style="filled,bold" tooltip="47"]
 
-"50" [shape=egg style="filled,bold" tooltip="47"]
+"50" [shape=egg style="filled,bold" tooltip="48"]
 
-"51" [shape=egg style="filled,bold" tooltip="48"]
+"51" [shape=egg style="filled,bold" tooltip="49"]
 
-"52" [tooltip="49"]
+"52" [tooltip="50"]
 "52" -> "53"
 
-"53" [tooltip="50"]
+"53" [tooltip="51"]
 "53" -> "54"
 
-"54" [shape=egg style="filled,bold" tooltip="51"]
+"54" [shape=egg style="filled,bold" tooltip="52"]
 
-"55" [tooltip="52"]
+"55" [tooltip="53"]
 "55" -> "57"
 
-"57" [tooltip="53"]
+"57" [tooltip="54"]
 "57" -> "51"
 
-"59" [tooltip="54"]
+"59" [tooltip="55"]
 "59" -> "60"
 
-"60" [shape=egg style="filled,bold" tooltip="55"]
+"60" [shape=egg style="filled,bold" tooltip="56"]
 
-"61" [tooltip="56"]
+"61" [tooltip="57"]
 "61" -> "62"
 
-"62" [shape=egg style="filled,bold" tooltip="57"]
+"62" [shape=egg style="filled,bold" tooltip="58"]
 
-"63" [shape=egg style="filled,bold" tooltip="58"]
+"63" [shape=egg style="filled,bold" tooltip="59"]
 
-"64" [tooltip="59"]
+"64" [tooltip="60"]
 "64" -> "65"
 
-"65" [shape=egg style="filled,bold" tooltip="60"]
+"65" [shape=egg style="filled,bold" tooltip="61"]
 
-"67" [shape=egg style="filled,bold" tooltip="61"]
+"67" [shape=egg style="filled,bold" tooltip="62"]
 
-"68" [shape=egg style="filled,bold" tooltip="62"]
+"68" [shape=egg style="filled,bold" tooltip="63"]
 
-"69" [shape=egg style="filled,bold" tooltip="63"]
+"69" [shape=egg style="filled,bold" tooltip="64"]
 
-"70" [tooltip="64"]
+"70" [tooltip="65"]
 "70" -> "49"
 "70" -> "52"
 
-"71" [shape=egg style="filled,bold" tooltip="65"]
+"71" [shape=egg style="filled,bold" tooltip="66"]
 
 labelloc="t"
 
-label="The Haunted House (2007 reissue; ISBN 9781933390512) [v20180112; github.com/morbus/gamebook-choicemaps]"
+label="The Haunted House (2007 reissue) -- ISBN 9781933390512 -- github.com/morbus/gamebook-choicemaps -- v20180908"
 
 }

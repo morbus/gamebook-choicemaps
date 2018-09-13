@@ -1,0 +1,194 @@
+digraph "Big Trouble (2018) -- ISBN 9781536202441 -- github.com/morbus/gamebook-choicemaps -- v20180908" {
+rankdir=TB
+
+
+"Start" [shape=doublecircle style="filled,bold" tooltip="4"]
+"Start" -> "1"
+
+"1" [tooltip="5"]
+"1" -> "6"
+"1" -> "8"
+"1" -> "16"
+
+"4" [shape=egg style="filled,bold" tooltip="6"]
+
+"6" [tooltip="7"]
+"6" -> "12"
+"6" -> "14"
+
+"8" [shape=egg style="filled,bold" tooltip="8"]
+
+"12" [tooltip="9"]
+"12" -> "15"
+
+"13" [shape=egg style="filled,bold" tooltip="10"]
+
+"14" [tooltip="11"]
+"14" -> "4"
+"14" -> "13"
+
+"15" [shape=egg style="filled,bold" tooltip="12"]
+
+"16" [tooltip="13"]
+"16" -> "25"
+"16" -> "26"
+
+"21" [tooltip="14"]
+"21" -> "81"
+
+"22" [tooltip="15"]
+"22" -> "31"
+"22" -> "40"
+
+"25" [tooltip="16"]
+"25" -> "28"
+
+"26" [tooltip="17"]
+"26" -> "22"
+
+"28" [tooltip="18"]
+"28" -> "113"
+"28" -> "33"
+"28" -> "78"
+
+"30" [tooltip="19"]
+"30" -> "50"
+"30" -> "54"
+
+"31" [shape=egg style="filled,bold" tooltip="20"]
+
+"33" [shape=egg style="filled,bold" tooltip="21"]
+
+"34" [tooltip="22"]
+"34" -> "38"
+"34" -> "45"
+
+"35" [shape=egg style="filled,bold" tooltip="23"]
+
+"36" [shape=egg style="filled,bold" tooltip="24"]
+
+"38" [tooltip="25"]
+"38" -> "44"
+
+"40" [tooltip="26"]
+"40" -> "21"
+"40" -> "49"
+
+"44" [shape=egg style="filled,bold" tooltip="27"]
+
+"45" [tooltip="28"]
+"45" -> "57"
+"45" -> "62"
+"45" -> "86"
+
+"49" [tooltip="29"]
+"49" -> "82"
+
+"50" [shape=egg style="filled,bold" tooltip="30"]
+
+"51" [shape=egg style="filled,bold" tooltip="31"]
+
+"54" [tooltip="32"]
+"54" -> "51"
+
+"55" [shape=egg style="filled,bold" tooltip="33"]
+
+"57" [shape=egg style="filled,bold" tooltip="34"]
+
+"60" [tooltip="35"]
+"60" -> "89"
+
+"62" [tooltip="36"]
+"62" -> "68"
+
+"64" [shape=egg style="filled,bold" tooltip="37"]
+
+"68" [tooltip="38"]
+"68" -> "36"
+"68" -> "84"
+
+"69" [tooltip="39"]
+"69" -> "60"
+"69" -> "64"
+
+"71" [tooltip="40"]
+"71" -> "90"
+"71" -> "92"
+
+"75" [shape=egg style="filled,bold" tooltip="41"]
+
+"77" [tooltip="42"]
+"77" -> "55"
+
+"78" [tooltip="43"]
+"78" -> "30"
+
+"81" [shape=egg style="filled,bold" tooltip="44"]
+
+"82" [tooltip="45"]
+"82" -> "69"
+"82" -> "71"
+
+"84" [tooltip="46"]
+"84" -> "93"
+
+"86" [tooltip="47"]
+"86" -> "75"
+"86" -> "77"
+
+"89" [tooltip="48"]
+"89" -> "95"
+"89" -> "98"
+"89" -> "108"
+
+"90" [shape=egg style="filled,bold" tooltip="49"]
+
+"92" [shape=egg style="filled,bold" tooltip="50"]
+
+"93" [shape=egg style="filled,bold" tooltip="51"]
+
+"95" [tooltip="52"]
+"95" -> "116"
+"95" -> "105"
+
+"98" [tooltip="53"]
+"98" -> "102"
+
+"100" [shape=egg style="filled,bold" tooltip="54"]
+
+"102" [tooltip="55"]
+"102" -> "118"
+"102" -> "121"
+
+"103" [tooltip="56"]
+"103" -> "100"
+"103" -> "110"
+
+"105" [shape=egg style="filled,bold" tooltip="57"]
+
+"108" [tooltip="58"]
+"108" -> "103"
+
+"110" [tooltip="59"]
+"110" -> "119"
+
+"113" [tooltip="60"]
+"113" -> "34"
+
+"114" [shape=egg style="filled,bold" tooltip="61"]
+
+"116" [tooltip="62"]
+"116" -> "35"
+
+"118" [tooltip="63"]
+"118" -> "114"
+
+"119" [shape=egg style="filled,bold" tooltip="64"]
+
+"121" [shape=egg style="filled,bold" tooltip="65"]
+
+labelloc="t"
+
+label="Big Trouble (2018) -- ISBN 9781536202441 -- github.com/morbus/gamebook-choicemaps -- v20180908"
+
+}

@@ -3,7 +3,25 @@
 
 * Morbus Iff <<morbus@disobey.com>>
 
-# Dependency installation
+Gamebook Choicemaps is aptly named as it is a collection of gamebook choicemaps
+in multiple parsable formats:
+
+  1. `TITLE.tw2`: a plain-text readable file [in Twee2 format](https://dan-q.github.io/twee2/)
+  2. `TITLE.gv`: a DOT file for use with [Graphviz](http://www.graphviz.org/) and other readers
+  3. `TITLE.svg`: a render of the DOT file in SVG format
+  3. `TITLE.png`: a conversion of the SVG file to PNG format
+
+The following choicemaps are currently available:
+
+Title | Year | Generated formats
+------|------|-----
+CYOA: The Haunted House | 2007 | ...
+Endless Quest: Big Trouble | 2018 | [TW2](https://raw.githubusercontent.com/morbus/gamebook-choicemaps/master/choicemaps/big-trouble--2018--isbn-9781536202441/big-trouble--2018--isbn-9781536202441.tw2) • [DOT](https://raw.githubusercontent.com/morbus/gamebook-choicemaps/master/choicemaps/big-trouble--2018--isbn-9781536202441/big-trouble--2018--isbn-9781536202441.gv) • [SVG](https://raw.githubusercontent.com/morbus/gamebook-choicemaps/master/choicemaps/big-trouble--2018--isbn-9781536202441/big-trouble--2018--isbn-9781536202441.svg) • [PNG](https://raw.githubusercontent.com/morbus/gamebook-choicemaps/master/choicemaps/big-trouble--2018--isbn-9781536202441/big-trouble--2018--isbn-9781536202441.png)
+Investigations in Lovecraft Country #1: Alone Against the Flames | 2018 | ...
+
+# Generating a choicemap
+
+## Dependency installation
 
 ```bash
 mkdir lib && cd lib
@@ -20,7 +38,9 @@ npm install
 grunt package
 ```
 
-# Choicemap generation
+## Choicemap generation
+
+Write your choicemap as a Twee2 file.
 
 ```bash
 cd choicemaps/TITLE
@@ -38,6 +58,8 @@ Then:
 
 # TODO
 
-* When it comes to apps, we need more details in the title or GBCMDetails metadata.
-* We should detail the allowed valuesa for GBCMDetails in the README.md.
-* Alphabetize tags when "Color by tag" is enabled?
+* DotGraph: Alphabetize tags when "Color by tag" is enabled?
+* README.md: Need an intro to the "Generating a choicemap" section.
+* README.md: Document the allowed values for the GBCMDetails passage.
+* README.md: Finish documenting how to generate your own choicemap.
+* GBCMDetails: We need more details in the title or metadata.

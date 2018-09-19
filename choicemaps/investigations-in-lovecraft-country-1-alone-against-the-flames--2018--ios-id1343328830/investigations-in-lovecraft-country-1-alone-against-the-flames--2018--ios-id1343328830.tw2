@@ -1,5 +1,5 @@
 ::StoryTitle
-Investigations in Lovecraft Country #1: Alone Against the Flames (2018) -- iOS id1343328830 -- github.com/morbus/gamebook-choicemaps -- v20180908
+Investigations in Lovecraft Country #1: Alone Against the Flames (2018) -- iOS id1343328830 -- github.com/morbus/gamebook-choicemaps -- v20180919
 
 ::StoryAuthor
 MetaArcade
@@ -289,7 +289,16 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 ::You round an outcrop to find the man has [Skill-Check]
 [[Search carefully (pass)->???_SEARCH_CAREFULLY_PASS]]
 [[Search carefully (fail)->After a while, you're forced to admit]]
+[[Use the hidden path->The hidden staircase seems the obvious explanation]]
 [[Give up->Your morning exertions have left you hungry]]
+
+::The hidden staircase seems the obvious explanation
+[[Search for another pass (pass)->Almost by accident, you discover a channel between]]
+[[Search for another pass (fail)->???_SEARCH_FOR_ANOTHER_PASS_FAIL]]
+
+::Almost by accident, you discover a channel between
+[[Leave him me->???_LEAVE_HIM_BE]]
+[[Enter the cave->With wary steps, you squeeze between]]
 
 ::After a while, you're forced to admit
 [[Head back to town->Your morning exertions have left you hungry]]

@@ -83,7 +83,7 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 ::You hurry to stow your luggage
 [[Continue->The coach putters through the countryside]]
 
-::The coach putters through the countryside [Athleticism-Check]
+::The coach putters through the countryside [Skill-Check]
 [[Try to keep your balance (pass)->The driver spins the wheel to avoid]]
 [[Try to keep your balance (fail)->The driver spins the wheel to avoid]]
 
@@ -131,7 +131,7 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 ::Silas scowls down at the engine
 [[Continue->Silas gestures to the buildings]]
 
-::Silas gestures to the buildings [Intelligence-Check]
+::Silas gestures to the buildings [Skill-Check]
 [[Consider the situation (pass)->The grinding noises you heard]]
 [[Consider the situation (fail)->???_CONSIDER_THE_SITUATION_FAIL]]
 
@@ -169,7 +169,7 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 [[Walk around town->May's brow creases when you announce]]
 [[Turn in early->As you head to your room]]
 
-::May talks about life in Emberhead [Appearance-Check]
+::May talks about life in Emberhead [Skill-Check]
 [[Put her at ease (pass)->As the hour wears on, May's upbeat manner]]
 [[Put her at ease (fail)->As the hour wears on, you are amused to hear]]
 
@@ -192,7 +192,7 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 ::You flee back down the narrow street
 [[Continue->As you head to your room]]
 
-::As you approach, the figure [Intelligence-Check]
+::As you approach, the figure [Skill-Check]
 [[Try to track it (pass)->The figure moves fast, with almost (1)]]
 [[Try to track it (fail)->The figure moves fast, with almost (2)]]
 
@@ -222,7 +222,7 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 [[Investigate the cliff (with Clue-Over-the-Edge)->A few villagers watch with polite curiosity]]
 [[Go meet Silas->Hopefully, Silas has repaired the motor coach]]
 
-::A few villagers watch with polite curiosity [Intelligence-Check]
+::A few villagers watch with polite curiosity [Skill-Check]
 [[[Look closer (pass)->Your keen eyes pick it up after a couple of]]
 [[[Look closer (fail)->You search for any sign of a secret route]]
 
@@ -255,7 +255,7 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 ::The village hall backs against a cliff
 [[Continue->You wander the streets of Emberhead (2)]]
 
-::The artisans' courtyard is the busiest location [Intelligence-Check]
+::The artisans' courtyard is the busiest location [Skill-Check]
 [[Explore (pass)->One of the workshops is shut up]]
 [[Explore (fail)->You move among the artisans, chatting]]
 
@@ -270,7 +270,7 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 [[Go to the metal structure->You walk up the most central of the]]
 [[Go to the the church->You draw into the shadows of the church]]
 
-::The air is fresh and the walk down to the [Appearance-Check]
+::The air is fresh and the walk down to the [Skill-Check]
 [[Keep his attention (pass)->The man looks up at the village, scanning]]
 [[Keep his attention (fail)->The strange man breaks into a run]]
 
@@ -282,11 +282,11 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 [[Turn back->Your morning exertions have left you hungry]]
 [[Follow him->You break from the road and pursue]]
 
-::You break from the road and pursue [Athleticism-Check]
+::You break from the road and pursue [Skill-Check]
 [[Keep up (pass)->You draw close to the man]]
 [[Keep up (fail)->You round an outcrop to find the man has]]
 
-::You round an outcrop to find the man has [Intelligence-Check]
+::You round an outcrop to find the man has [Skill-Check]
 [[Search carefully (pass)->???_SEARCH_CAREFULLY_PASS]]
 [[Search carefully (fail)->After a while, you're forced to admit]]
 [[Give up->Your morning exertions have left you hungry]]
@@ -301,7 +301,7 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 [[Turn back->Your morning exertions have left you hungry]]
 [[Go inside->With wary steps, you squeeze between]]
 
-::With wary steps, you squeeze between [Sanity-Check]
+::With wary steps, you squeeze between [Skill-Check]
 [[Hold back a scream (pass)->Some of the man's face remains]]
 [[Hold back a scream (fail)->The scream tears free of your mouth before]]
 
@@ -351,7 +351,7 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 [[Go somewhere else->Your morning exertions have left you hungry]]
 [[Examine it further->An older gentleman passes, looking up]]
 
-::An older gentleman passes, looking up [Intelligence-Check]
+::An older gentleman passes, looking up [Skill-Check]
 [[Watch closely (pass)->As you walk away from the iron structure]]
 [[Watch closely (fail)->The strange melted structure is inscrutable]]
 
@@ -388,7 +388,7 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 ::You take money, water, and
 [[Enter the woods->After the miserable, enclosed streets]]
 
-::After the miserable, enclosed streets [Intelligence-Check]
+::After the miserable, enclosed streets [Skill-Check]
 [[Continue (as Lila Anne Fairfax)->That's the sound of a coyote]]
 [[Keep calm (pass)->The call is that of a coyote]]
 [[Keep calm (fail)->A shiver runs through you, beyond your]]
@@ -411,7 +411,7 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 [[Take the shortcut->You set off along the track and make]]
 [[Stick to the road->There is no guarantee that the]]
 
-::The gentle incline is misleading, and your [Intelligence-Check]
+::The gentle incline is misleading, and your [Skill-Check]
 [[Admire the view (pass)->The position of the sun bothers you]]
 [[Admire the view (fail)->You feel a sting of self-doubt at the]]
 
@@ -421,7 +421,7 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 ::You feel a sting of self-doubt at the
 [[Go back to the road->You return to the road and]]
 
-::You set off along the track and make [Athleticism-Check]
+::You set off along the track and make [Skill-Check]
 [[Try to catch yourself (pass)->A root snags your ankle, and you]]
 [[Try to catch yourself (fail)->???_TRY_TO_CATCH_YOURSELF_FAIL]]
 
@@ -433,21 +433,21 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 [[Hold perfectly still->You keep your breath shallow]]
 [[Carefully retreat->You've heard that bears are not]]
 
-::You slink towards the bear, trying to [Athleticism-Check]
+::You slink towards the bear, trying to [Skill-Check]
 [[Be stealthy (pass)->The bear doesn't seem to notice you]]
 [[Be stealthy (fail)->???_BE_STEALTHY_FAIL]]
 
 ::You've heard that bears are not
 [[Go back to the road->You return to the road and]]
 
-::You keep your breath shallow [Athleticism-Check]
+::You keep your breath shallow [Skill-Check]
 [[Hold still (pass)->The bear doesn't seem to notice you]]
 [[Hold still (fail)->???_HOLD_STILL_FAIL]]
 
 ::The bear doesn't seem to notice you
 [[Go back to the road->You return to the road and]]
 
-::You return to the road and [Intelligence-Check]
+::You return to the road and [Skill-Check]
 [[Stay vigilant (pass)->You hear something from the road behind]]
 [[Stay vigilant (fail)->Another cry splits the gloom]]
 
@@ -458,14 +458,14 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 [[Take refuge in a tree->The echoing call comes again]]
 [[Keep moving->Unappealing as it is to keep walking]]
 
-::The echoing call comes again [Athleticism-Check]
+::The echoing call comes again [Skill-Check]
 [[Climb (pass)->You ease yourself onto the widest branch]]
 [[Climb (fail)->???_CLIMB_FAIL]]
 
 ::You ease yourself onto the widest branch
 [[Go to sleep->In your dreams, the tree change position]]
 
-::In your dreams, the tree change position [Sanity-Check]
+::In your dreams, the tree change position [Skill-Check]
 [[Keep it together (pass)->Something is not right here]]
 [[Keep it together (fail)->The belt parts and you plunge]]
 
@@ -478,7 +478,7 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 ::Unappealing as it is to keep walking
 [[Continue->The eerie howls draw closer]]
 
-::The eerie howls draw closer [Sanity-Check]
+::The eerie howls draw closer [Skill-Check]
 [[Keep it together (pass)->Even as the beasts fan out around you, and]]
 [[Keep it together (fail)->The beasts fan out around you]]
 
@@ -501,7 +501,7 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 ::You raise your hand to knock on the
 [[Enter his office->You step through the door marked]]
 
-::One noticeboard appears to be for [Intelligence-Check]
+::One noticeboard appears to be for [Skill-Check]
 [[Look closely (pass)->As the afternoon sun hits the floor]]
 [[Look closely (fail)->The door scrapes behind you]]
 
@@ -562,12 +562,12 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 ::Winter raises an eyebrow when you settle down with
 [[Continue->The afternoon wears on]]
 
-::The afternoon wears on [Appearance-Check]
+::The afternoon wears on [Skill-Check]
 [[Continue->I'm happy to leave you in charge for a]]
 [[Ask if you can stay (pass)->I'm happy to leave you in charge for a]]
 [[Ask if you can stay (fail)->???_ASK_IF_YOU_CAN_STAY_FAIL]]
 
-::I'm happy to leave you in charge for a [Intelligence-Check]
+::I'm happy to leave you in charge for a [Skill-Check]
 [[Examine the bookshelves (pass)->As you scan the shelves, you try to move on]]
 [[Examine the bookshelves (fail)->Soon enough, the door opens and Winters re-enters]]
 
@@ -598,7 +598,7 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 ::You feel very dislocated from reality, as you [Clue-Arbogast's-Chant]
 [[Practice the chant->In time, Arbogast listens to your recital and]]
 
-::In time, Arbogast listens to your recital and [Athleticism-Check]
+::In time, Arbogast listens to your recital and [Skill-Check]
 [[Stay sharp (pass)->???_STAY_SHARP_PASS]]
 [[Stay sharp (fail)->Something smashes you on the temple]]
 
@@ -611,7 +611,7 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 ::Alarm flares in those eyes as you stand
 [[Go to your room->The familiar surroundings of your guest room]]
 
-::In time, May returns to the kitchen [Appearance-Check]
+::In time, May returns to the kitchen [Skill-Check]
 [[Persuade her (pass)->Well... I suppose it will only take a few]]
 [[Persuade her (fail)->May frowns and shakes her head]]
 
@@ -652,7 +652,7 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 [[Confront May->May jumps as you swing your legs off the]]
 [[Wait and watch->After another few moments, May glances]]
 
-::May jumps as you swing your legs off the [Appearance-Check]
+::May jumps as you swing your legs off the [Skill-Check]
 [[Get her to talk (pass)->You block May's exit and demand to know what]]
 [[Get her to talk (fail)->Anger flashes in May's eyes]]
 
@@ -664,7 +664,7 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 [[Stay awake all night->???_STAY_AWAKE_ALL_NIGHT]]
 [[Go to sleep->You awaken to the sound of feet in the]]
 
-::After another few moments, May glances [Intelligence-Check]
+::After another few moments, May glances [Skill-Check]
 [[Investigate the powder (pass)->The distinctive whiff from the powder]]
 [[Investigate the powder (fail)->???_INVESTIGATE_THE_POWDER_FAIL]]
 
@@ -686,11 +686,11 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 [[Search May's bedroom->Despite her hospitality, you do not]]
 [[Visit the artisans->You approach around the back of the]]
 
-::Despite her hospitality, you do not [Intelligence-Check]
+::Despite her hospitality, you do not [Skill-Check]
 [[Keep looking (pass)->You notice scrapes on the floorboards]]
 [[Keep looking (fail)->You go through the Ledbetters' drawers]]
 
-::You go through the Ledbetters' drawers [Intelligence-Check]
+::You go through the Ledbetters' drawers [Skill-Check]
 [[Keep looking (pass)->You notice scrapes on the floorboards]]
 [[Keep looking (fail)->A shadow falls across you]]
 
@@ -709,14 +709,14 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 [[Pick the padlock->You examine the padlock. It is old and]]
 [[Break down the door->You examine the workshop]]
 
-::You examine the padlock. It is old and [Intelligence-Check]
+::You examine the padlock. It is old and [Skill-Check]
 [[Try to pick the lock (pass)->You push aside the door and step inside]]
 [[Try to pick the lock (fail)->No luck. You step back from the door]]
 
 ::No luck. You step back from the door
 [[Continue->The villagers are still hard at work]]
 
-::You examine the workshop [Athleticism-Check]
+::You examine the workshop [Skill-Check]
 [[Try to break the door (pass)->You push aside the door and step inside]]
 [[Try to break the door (fail)->No luck. You step back from the door]]
 
@@ -752,7 +752,7 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 ::Keeping away from the streets, you skirt
 [[Enter->Your eye is immediately drawn to the rows of]]
 
-::Your eye is immediately drawn to the rows of [Intelligence-Check]
+::Your eye is immediately drawn to the rows of [Skill-Check]
 [[Examine the glued books (with Clue-Trusted-Patron)->You recall the three glued-together books you]]
 [[Examine the books (pass)->You're looking along the spines when you]]
 [[Examine the books (fail)->The answer is, apparently, nothing]]
@@ -772,11 +772,11 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 [[Open a window->Enough light spills into the room for you to]]
 [[Grab a robe and leave->You slip from the building, clutching a]]
 
-::Enough light spills into the room for you to [Intelligence-Check]
+::Enough light spills into the room for you to [Skill-Check]
 [[Examine the books (pass)->Most of the texts are too obscure for]]
 [[Examine the books (fail)->The more you try to make sense of the]]
 
-::The more you try to make sense of the [Intelligence-Check]
+::The more you try to make sense of the [Skill-Check]
 [[Try again (pass)->Most of the texts are too obscure for]]
 [[Try again (fail)->???_TRY_AGAIN_FAIL]]
 
@@ -794,7 +794,7 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 ::You try to commit the wording of "Command Ye [Clue-Command-Ye-Celestial-Flames]
 [[Continue->Tempting as it is to keep the book]]
 
-::Tempting as it is to keep the book [Athleticism-Check]
+::Tempting as it is to keep the book [Skill-Check]
 [[Jump (pass)->With a burst of speed, you dart through the]]
 [[Jump (fail)->???_JUMP_FAIL]]
 
@@ -804,7 +804,7 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 ::You slip from the building, clutching a
 [[Go back into town->The town is practically deserted]]
 
-::The northern side of the village is bustling [Athleticism-Check]
+::The northern side of the village is bustling [Skill-Check]
 [[Keep moving (pass)->The turf sinks beneath your feet]]
 [[Keep moving (fail)->???_KEEP_MOVING_FAIL]]
 
@@ -820,14 +820,14 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 ::As you approach the southern road
 [[Talk your way past->The southern group appears less sharp]]
 
-::The southern group appears less sharp [Appearance-Check]
+::The southern group appears less sharp [Skill-Check]
 [[Persuade them (pass)->Your impatience is convincing, and finally]]
 [[Persuade them (fail)->These locals are not as stupid as]]
 
 ::Your impatience is convincing, and finally
 [[Escape->The sun is low in the sky as you head east]]
 
-::The sun is low in the sky as you head east [Athleticism-Check]
+::The sun is low in the sky as you head east [Skill-Check]
 [[Hide (pass)->???_HIDE_PASS]]
 [[Hide (fail)->You press yourself against the biggest trunk]]
 
@@ -868,7 +868,7 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 ::The procession down The Approach is
 [[Continue->As you reach the cleared area around the Beacon]]
 
-::As you reach the cleared area around the Beacon [Appearance-Check]
+::As you reach the cleared area around the Beacon [Skill-Check]
 [[Pay attention (pass)->Through your sacrifice the village will be]]
 [[Pay attention (fail)->Through your sacrifice the village will be]]
 
@@ -888,7 +888,7 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 [[Try to break free->You're tired, and your flesh ought to be]]
 [[Keep still->The flames snake across the kindling (1)]]
 
-::You're tired, and your flesh ought to be [Athleticism-Check]
+::You're tired, and your flesh ought to be [Skill-Check]
 [[Break free (pass)->As tongues of fire lick towards you]]
 [[Break free (fail)->The flames snake across the kindling (1)]]
 
@@ -914,7 +914,7 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 [[Use 'Call Ye...' (with Clue-Call-Ye-Celestial-Flames)->You clear your throat and begin the]]
 [[Use 'Command Ye...' (with Clue-Command-Ye-Celestial-Flames)->You clear your throat and begin the]]
 
-::You clear your throat and begin the [Intelligence-Check]
+::You clear your throat and begin the [Skill-Check]
 [[Continue (with Clue-Call-Ye-Celestial-Flames)->The flames catch your clothes and you are]]
 [[Exert your will (with Clue-Command-Ye-Celestial-Flames) (pass)->The stars are alive]]
 [[Exert your will (with Clue-Command-Ye-Celestial-Flames) (fail)->???_EXERT_YOUR_WILL_COMMAND_YE_FAIL]]
@@ -931,13 +931,13 @@ dotgraph:{"color":"tag","countWords":false,"omitTags":["annotation"],"showNodeNa
 
 ::Horror sweeps through the crowd [End]
 
-::Flames lick at your legs [Athleticism-Check]
+::Flames lick at your legs [Skill-Check]
 [[Break free (pass)->???_BREAK_FREE_PASS]]
 [[Break free (fail)->The chains give a little more]]
 
 ::The chains give a little more [End]
 
-::As tongues of fire lick towards you [Athleticism-Check]
+::As tongues of fire lick towards you [Skill-Check]
 [[Avoid capture (pass)->You slither from the grasp of the youths]]
 [[Avoid capture (fail)->They bear you back into the center of the]]
 

@@ -3,8 +3,8 @@
 .DS_Store
 
 # External libraries not sourced.
+bin
 lib
 
 # Don't store dotgraph over and over again.
 choicemaps/*/*.html
-

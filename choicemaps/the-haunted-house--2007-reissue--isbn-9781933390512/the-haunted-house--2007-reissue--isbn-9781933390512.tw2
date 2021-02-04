@@ -1,16 +1,31 @@
 ::StoryTitle
-The Haunted House (2007 reissue) -- ISBN 9781933390512 -- github.com/morbus/gamebook-choicemaps -- v20180908
+The Haunted House (2007 reissue) -- ISBN 9781933390512 -- github.com/morbus/gamebook-choicemaps -- v20210204
 
 ::StoryAuthor
 R. A. Montgomery
 
-::StorySettings
-dotgraph:{"color":"bw","countWords":false,"omitTags":["annotation"],"showNodeNames":true}
-
 ::GBCMDetails [annotation]
-  * Demian's Gamebook Web Page: <https://gamebooks.org/Item/570>
-  * Choicemapper: Morbus Iff <morbus@disobey.com>
-  * Passage IDs: page-numbers
+{
+  "updated": "2021-02-04",
+  "title": "The Haunted House",
+  "author": "R. A. Montgomery",
+  "year": "2007",
+  "series": "Choose Your Own Adventure",
+  "isbn": "9781933390512",
+  "choicemapper": "Morbus Iff <morbus@disobey.com>",
+  "passageType": "page-numbers"
+  "gamebooksURL": "https://gamebooks.org/Item/570/Show",
+  "githubURL": "https://github.com/morbus/gamebook-choicemaps/tree/master/choicemaps/the-haunted-house--2007-reissue--isbn-9781933390512"
+}
+
+::DotGraphSettings
+{
+  "color": "bw",
+  "countWords": false,
+  "omitTags": ["annotation"],
+  "prefix": "☐ ",
+  "showNodeNames": true
+}
 
 ::Start
 [[1]]
@@ -86,7 +101,7 @@ dotgraph:{"color":"bw","countWords":false,"omitTags":["annotation"],"showNodeNam
 [[43]]
 [[47]]
 
-::24 [End]
+::24 [end]
 
 ::25
 [[35]]
@@ -101,7 +116,7 @@ dotgraph:{"color":"bw","countWords":false,"omitTags":["annotation"],"showNodeNam
 ::28
 [[59]]
 
-::29 [End]
+::29 [end]
 
 ::31
 [[61]]
@@ -116,7 +131,7 @@ dotgraph:{"color":"bw","countWords":false,"omitTags":["annotation"],"showNodeNam
 ::35
 [[36]]
 
-::36 [End]
+::36 [end]
 
 ::37
 [[38]]
@@ -133,29 +148,29 @@ dotgraph:{"color":"bw","countWords":false,"omitTags":["annotation"],"showNodeNam
 ::41
 [[42]]
 
-::42 [End]
+::42 [end]
 
 ::43
 [[44]]
 
-::44 [End]
+::44 [end]
 
 ::45
 [[24]]
 [[29]]
 
-::47 [End]
+::47 [end]
 
 ::48
 [[18]]
 [[39]]
 [[70]]
 
-::49 [End]
+::49 [end]
 
-::50 [End]
+::50 [end]
 
-::51 [End]
+::51 [end]
 
 ::52
 [[53]]
@@ -163,7 +178,7 @@ dotgraph:{"color":"bw","countWords":false,"omitTags":["annotation"],"showNodeNam
 ::53
 [[54]]
 
-::54 [End]
+::54 [end]
 
 ::55
 [[57]]
@@ -174,28 +189,28 @@ dotgraph:{"color":"bw","countWords":false,"omitTags":["annotation"],"showNodeNam
 ::59
 [[60]]
 
-::60 [End]
+::60 [end]
 
 ::61
 [[62]]
 
-::62 [End]
+::62 [end]
 
-::63 [End]
+::63 [end]
 
 ::64
 [[65]]
 
-::65 [End]
+::65 [end]
 
-::67 [End]
+::67 [end]
 
-::68 [End]
+::68 [end]
 
-::69 [End]
+::69 [end]
 
 ::70
 [[49]]
 [[52]]
 
-::71 [End]
+::71 [end]

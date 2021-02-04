@@ -1,43 +1,49 @@
 ::StoryTitle
-Big Trouble (2018) -- ISBN 9781536202441 -- github.com/morbus/gamebook-choicemaps -- v20180908
+Big Trouble (2018) -- ISBN 9781536202441 -- github.com/morbus/gamebook-choicemaps -- v20210203
 
 ::StoryAuthor
-MetaArcade
-
-::StorySettings
-dotgraph:{"color":"bw","countWords":false,"omitTags":["annotation"],"showNodeNames":true}
+Matt Forbeck
 
 ::GBCMDetails [annotation]
-  * Demian's Gamebook Web Page: ???
+  * Last updated: 2021-02-03
   * Choicemapper: Morbus Iff <morbus@disobey.com>
+  * ISBN: 9781536202441
+  * Demian's Gamebook Web Page: https://gamebooks.org/Item/11799/Show
+  * GitHub: https://github.com/morbus/gamebook-choicemaps/tree/master/choicemaps/big-trouble--2018--isbn-9781536202441
   * Passage IDs: page-numbers
 
-::Start
-[[1]]
+::DotGraphSettings
+{
+  "color": "bw",
+  "countWords": false,
+  "omitTags": ["annotation"],
+  "showNodeNames": true,
+  "prefix": "☐ "
+}
 
-::1
+::Start
 [[6]]
 [[8]]
 [[16]]
 
-::4 [End]
+::4 [end]
 
 ::6
 [[12]]
 [[14]]
 
-::8 [End]
+::8 [end]
 
 ::12
 [[15]]
 
-::13 [End]
+::13 [end]
 
 ::14
 [[4]]
 [[13]]
 
-::15 [End]
+::15 [end]
 
 ::16
 [[25]]
@@ -65,17 +71,17 @@ dotgraph:{"color":"bw","countWords":false,"omitTags":["annotation"],"showNodeNam
 [[50]]
 [[54]]
 
-::31 [End]
+::31 [end]
 
-::33 [End]
+::33 [end]
 
 ::34
 [[38]]
 [[45]]
 
-::35 [End]
+::35 [end]
 
-::36 [End]
+::36 [end]
 
 ::38
 [[44]]
@@ -84,7 +90,7 @@ dotgraph:{"color":"bw","countWords":false,"omitTags":["annotation"],"showNodeNam
 [[21]]
 [[49]]
 
-::44 [End]
+::44 [end]
 
 ::45
 [[57]]
@@ -94,16 +100,16 @@ dotgraph:{"color":"bw","countWords":false,"omitTags":["annotation"],"showNodeNam
 ::49
 [[82]]
 
-::50 [End]
+::50 [end]
 
-::51 [End]
+::51 [end]
 
 ::54
 [[51]]
 
-::55 [End]
+::55 [end]
 
-::57 [End]
+::57 [end]
 
 ::60
 [[89]]
@@ -111,7 +117,7 @@ dotgraph:{"color":"bw","countWords":false,"omitTags":["annotation"],"showNodeNam
 ::62
 [[68]]
 
-::64 [End]
+::64 [end]
 
 ::68
 [[36]]
@@ -125,7 +131,7 @@ dotgraph:{"color":"bw","countWords":false,"omitTags":["annotation"],"showNodeNam
 [[90]]
 [[92]]
 
-::75 [End]
+::75 [end]
 
 ::77
 [[55]]
@@ -133,7 +139,7 @@ dotgraph:{"color":"bw","countWords":false,"omitTags":["annotation"],"showNodeNam
 ::78
 [[30]]
 
-::81 [End]
+::81 [end]
 
 ::82
 [[69]]
@@ -151,11 +157,11 @@ dotgraph:{"color":"bw","countWords":false,"omitTags":["annotation"],"showNodeNam
 [[98]]
 [[108]]
 
-::90 [End]
+::90 [end]
 
-::92 [End]
+::92 [end]
 
-::93 [End]
+::93 [end]
 
 ::95
 [[116]]
@@ -164,7 +170,7 @@ dotgraph:{"color":"bw","countWords":false,"omitTags":["annotation"],"showNodeNam
 ::98
 [[102]]
 
-::100 [End]
+::100 [end]
 
 ::102
 [[118]]
@@ -174,7 +180,7 @@ dotgraph:{"color":"bw","countWords":false,"omitTags":["annotation"],"showNodeNam
 [[100]]
 [[110]]
 
-::105 [End]
+::105 [end]
 
 ::108
 [[103]]
@@ -185,7 +191,7 @@ dotgraph:{"color":"bw","countWords":false,"omitTags":["annotation"],"showNodeNam
 ::113
 [[34]]
 
-::114 [End]
+::114 [end]
 
 ::116
 [[35]]
@@ -193,6 +199,6 @@ dotgraph:{"color":"bw","countWords":false,"omitTags":["annotation"],"showNodeNam
 ::118
 [[114]]
 
-::119 [End]
+::119 [end]
 
-::121 [End]
+::121 [end]

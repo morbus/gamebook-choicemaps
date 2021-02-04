@@ -1,194 +1,191 @@
-digraph "Big Trouble (2018) -- ISBN 9781536202441 -- github.com/morbus/gamebook-choicemaps -- v20180908" {
+digraph "Big Trouble (2018) -- ISBN 9781536202441 -- github.com/morbus/gamebook-choicemaps -- v20210203" {
 rankdir=TB
 
 
-"Start" [shape=doublecircle style="filled,bold" tooltip="4"]
-"Start" -> "1"
+"Start" [shape=doublecircle style="filled,bold" fillcolor="#C8C8C8" label="☐ Start" tooltip="4"]
+"Start" -> "6"
+"Start" -> "8"
+"Start" -> "16"
 
-"1" [tooltip="5"]
-"1" -> "6"
-"1" -> "8"
-"1" -> "16"
+"4" [shape=egg style="filled,bold" fillcolor="#C8C8C8" label="☐ 4" tooltip="5"]
 
-"4" [shape=egg style="filled,bold" tooltip="6"]
-
-"6" [tooltip="7"]
+"6" [fillcolor="#FFFFFF" label="☐ 6" tooltip="6"]
 "6" -> "12"
 "6" -> "14"
 
-"8" [shape=egg style="filled,bold" tooltip="8"]
+"8" [shape=egg style="filled,bold" fillcolor="#C8C8C8" label="☐ 8" tooltip="7"]
 
-"12" [tooltip="9"]
+"12" [fillcolor="#FFFFFF" label="☐ 12" tooltip="8"]
 "12" -> "15"
 
-"13" [shape=egg style="filled,bold" tooltip="10"]
+"13" [shape=egg style="filled,bold" fillcolor="#C8C8C8" label="☐ 13" tooltip="9"]
 
-"14" [tooltip="11"]
+"14" [fillcolor="#FFFFFF" label="☐ 14" tooltip="10"]
 "14" -> "4"
 "14" -> "13"
 
-"15" [shape=egg style="filled,bold" tooltip="12"]
+"15" [shape=egg style="filled,bold" fillcolor="#C8C8C8" label="☐ 15" tooltip="11"]
 
-"16" [tooltip="13"]
+"16" [fillcolor="#FFFFFF" label="☐ 16" tooltip="12"]
 "16" -> "25"
 "16" -> "26"
 
-"21" [tooltip="14"]
+"21" [fillcolor="#FFFFFF" label="☐ 21" tooltip="13"]
 "21" -> "81"
 
-"22" [tooltip="15"]
+"22" [fillcolor="#FFFFFF" label="☐ 22" tooltip="14"]
 "22" -> "31"
 "22" -> "40"
 
-"25" [tooltip="16"]
+"25" [fillcolor="#FFFFFF" label="☐ 25" tooltip="15"]
 "25" -> "28"
 
-"26" [tooltip="17"]
+"26" [fillcolor="#FFFFFF" label="☐ 26" tooltip="16"]
 "26" -> "22"
 
-"28" [tooltip="18"]
+"28" [fillcolor="#FFFFFF" label="☐ 28" tooltip="17"]
 "28" -> "113"
 "28" -> "33"
 "28" -> "78"
 
-"30" [tooltip="19"]
+"30" [fillcolor="#FFFFFF" label="☐ 30" tooltip="18"]
 "30" -> "50"
 "30" -> "54"
 
-"31" [shape=egg style="filled,bold" tooltip="20"]
+"31" [shape=egg style="filled,bold" fillcolor="#C8C8C8" label="☐ 31" tooltip="19"]
 
-"33" [shape=egg style="filled,bold" tooltip="21"]
+"33" [shape=egg style="filled,bold" fillcolor="#C8C8C8" label="☐ 33" tooltip="20"]
 
-"34" [tooltip="22"]
+"34" [fillcolor="#FFFFFF" label="☐ 34" tooltip="21"]
 "34" -> "38"
 "34" -> "45"
 
-"35" [shape=egg style="filled,bold" tooltip="23"]
+"35" [shape=egg style="filled,bold" fillcolor="#C8C8C8" label="☐ 35" tooltip="22"]
 
-"36" [shape=egg style="filled,bold" tooltip="24"]
+"36" [shape=egg style="filled,bold" fillcolor="#C8C8C8" label="☐ 36" tooltip="23"]
 
-"38" [tooltip="25"]
+"38" [fillcolor="#FFFFFF" label="☐ 38" tooltip="24"]
 "38" -> "44"
 
-"40" [tooltip="26"]
+"40" [fillcolor="#FFFFFF" label="☐ 40" tooltip="25"]
 "40" -> "21"
 "40" -> "49"
 
-"44" [shape=egg style="filled,bold" tooltip="27"]
+"44" [shape=egg style="filled,bold" fillcolor="#C8C8C8" label="☐ 44" tooltip="26"]
 
-"45" [tooltip="28"]
+"45" [fillcolor="#FFFFFF" label="☐ 45" tooltip="27"]
 "45" -> "57"
 "45" -> "62"
 "45" -> "86"
 
-"49" [tooltip="29"]
+"49" [fillcolor="#FFFFFF" label="☐ 49" tooltip="28"]
 "49" -> "82"
 
-"50" [shape=egg style="filled,bold" tooltip="30"]
+"50" [shape=egg style="filled,bold" fillcolor="#C8C8C8" label="☐ 50" tooltip="29"]
 
-"51" [shape=egg style="filled,bold" tooltip="31"]
+"51" [shape=egg style="filled,bold" fillcolor="#C8C8C8" label="☐ 51" tooltip="30"]
 
-"54" [tooltip="32"]
+"54" [fillcolor="#FFFFFF" label="☐ 54" tooltip="31"]
 "54" -> "51"
 
-"55" [shape=egg style="filled,bold" tooltip="33"]
+"55" [shape=egg style="filled,bold" fillcolor="#C8C8C8" label="☐ 55" tooltip="32"]
 
-"57" [shape=egg style="filled,bold" tooltip="34"]
+"57" [shape=egg style="filled,bold" fillcolor="#C8C8C8" label="☐ 57" tooltip="33"]
 
-"60" [tooltip="35"]
+"60" [fillcolor="#FFFFFF" label="☐ 60" tooltip="34"]
 "60" -> "89"
 
-"62" [tooltip="36"]
+"62" [fillcolor="#FFFFFF" label="☐ 62" tooltip="35"]
 "62" -> "68"
 
-"64" [shape=egg style="filled,bold" tooltip="37"]
+"64" [shape=egg style="filled,bold" fillcolor="#C8C8C8" label="☐ 64" tooltip="36"]
 
-"68" [tooltip="38"]
+"68" [fillcolor="#FFFFFF" label="☐ 68" tooltip="37"]
 "68" -> "36"
 "68" -> "84"
 
-"69" [tooltip="39"]
+"69" [fillcolor="#FFFFFF" label="☐ 69" tooltip="38"]
 "69" -> "60"
 "69" -> "64"
 
-"71" [tooltip="40"]
+"71" [fillcolor="#FFFFFF" label="☐ 71" tooltip="39"]
 "71" -> "90"
 "71" -> "92"
 
-"75" [shape=egg style="filled,bold" tooltip="41"]
+"75" [shape=egg style="filled,bold" fillcolor="#C8C8C8" label="☐ 75" tooltip="40"]
 
-"77" [tooltip="42"]
+"77" [fillcolor="#FFFFFF" label="☐ 77" tooltip="41"]
 "77" -> "55"
 
-"78" [tooltip="43"]
+"78" [fillcolor="#FFFFFF" label="☐ 78" tooltip="42"]
 "78" -> "30"
 
-"81" [shape=egg style="filled,bold" tooltip="44"]
+"81" [shape=egg style="filled,bold" fillcolor="#C8C8C8" label="☐ 81" tooltip="43"]
 
-"82" [tooltip="45"]
+"82" [fillcolor="#FFFFFF" label="☐ 82" tooltip="44"]
 "82" -> "69"
 "82" -> "71"
 
-"84" [tooltip="46"]
+"84" [fillcolor="#FFFFFF" label="☐ 84" tooltip="45"]
 "84" -> "93"
 
-"86" [tooltip="47"]
+"86" [fillcolor="#FFFFFF" label="☐ 86" tooltip="46"]
 "86" -> "75"
 "86" -> "77"
 
-"89" [tooltip="48"]
+"89" [fillcolor="#FFFFFF" label="☐ 89" tooltip="47"]
 "89" -> "95"
 "89" -> "98"
 "89" -> "108"
 
-"90" [shape=egg style="filled,bold" tooltip="49"]
+"90" [shape=egg style="filled,bold" fillcolor="#C8C8C8" label="☐ 90" tooltip="48"]
 
-"92" [shape=egg style="filled,bold" tooltip="50"]
+"92" [shape=egg style="filled,bold" fillcolor="#C8C8C8" label="☐ 92" tooltip="49"]
 
-"93" [shape=egg style="filled,bold" tooltip="51"]
+"93" [shape=egg style="filled,bold" fillcolor="#C8C8C8" label="☐ 93" tooltip="50"]
 
-"95" [tooltip="52"]
+"95" [fillcolor="#FFFFFF" label="☐ 95" tooltip="51"]
 "95" -> "116"
 "95" -> "105"
 
-"98" [tooltip="53"]
+"98" [fillcolor="#FFFFFF" label="☐ 98" tooltip="52"]
 "98" -> "102"
 
-"100" [shape=egg style="filled,bold" tooltip="54"]
+"100" [shape=egg style="filled,bold" fillcolor="#C8C8C8" label="☐ 100" tooltip="53"]
 
-"102" [tooltip="55"]
+"102" [fillcolor="#FFFFFF" label="☐ 102" tooltip="54"]
 "102" -> "118"
 "102" -> "121"
 
-"103" [tooltip="56"]
+"103" [fillcolor="#FFFFFF" label="☐ 103" tooltip="55"]
 "103" -> "100"
 "103" -> "110"
 
-"105" [shape=egg style="filled,bold" tooltip="57"]
+"105" [shape=egg style="filled,bold" fillcolor="#C8C8C8" label="☐ 105" tooltip="56"]
 
-"108" [tooltip="58"]
+"108" [fillcolor="#FFFFFF" label="☐ 108" tooltip="57"]
 "108" -> "103"
 
-"110" [tooltip="59"]
+"110" [fillcolor="#FFFFFF" label="☐ 110" tooltip="58"]
 "110" -> "119"
 
-"113" [tooltip="60"]
+"113" [fillcolor="#FFFFFF" label="☐ 113" tooltip="59"]
 "113" -> "34"
 
-"114" [shape=egg style="filled,bold" tooltip="61"]
+"114" [shape=egg style="filled,bold" fillcolor="#C8C8C8" label="☐ 114" tooltip="60"]
 
-"116" [tooltip="62"]
+"116" [fillcolor="#FFFFFF" label="☐ 116" tooltip="61"]
 "116" -> "35"
 
-"118" [tooltip="63"]
+"118" [fillcolor="#FFFFFF" label="☐ 118" tooltip="62"]
 "118" -> "114"
 
-"119" [shape=egg style="filled,bold" tooltip="64"]
+"119" [shape=egg style="filled,bold" fillcolor="#C8C8C8" label="☐ 119" tooltip="63"]
 
-"121" [shape=egg style="filled,bold" tooltip="65"]
+"121" [shape=egg style="filled,bold" fillcolor="#C8C8C8" label="☐ 121" tooltip="64"]
 
 labelloc="t"
 
-label="Big Trouble (2018) -- ISBN 9781536202441 -- github.com/morbus/gamebook-choicemaps -- v20180908"
+label="Big Trouble (2018) -- ISBN 9781536202441 -- github.com/morbus/gamebook-choicemaps -- v20210203"
 
 }

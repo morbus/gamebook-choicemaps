@@ -1,24 +1,30 @@
 ::StoryTitle
-Big Trouble (2018) -- ISBN 9781536202441 -- github.com/morbus/gamebook-choicemaps -- v20210203
+Endless Quest #52: Big Trouble (2018) -- ISBN 9781536202441 -- github.com/morbus/gamebook-choicemaps -- v20210203
 
 ::StoryAuthor
 Matt Forbeck
 
 ::GBCMDetails [annotation]
-  * Last updated: 2021-02-03
-  * Choicemapper: Morbus Iff <morbus@disobey.com>
-  * ISBN: 9781536202441
-  * Demian's Gamebook Web Page: https://gamebooks.org/Item/11799/Show
-  * GitHub: https://github.com/morbus/gamebook-choicemaps/tree/master/choicemaps/big-trouble--2018--isbn-9781536202441
-  * Passage IDs: page-numbers
+{
+  "updated": "2021-02-03",
+  "title": "Big Trouble",
+  "author": "Matt Forbeck",
+  "year": "2018",
+  "series": "Endless Quest #52",
+  "isbn": "9781536202441",
+  "choicemapper": "Morbus Iff <morbus@disobey.com>",
+  "passageType": "page-numbers"
+  "gamebooksURL": "https://gamebooks.org/Item/11799/Show",
+  "githubURL": "https://github.com/morbus/gamebook-choicemaps/tree/master/choicemaps/big-trouble--2018--isbn-9781536202441"
+}
 
 ::DotGraphSettings
 {
   "color": "bw",
   "countWords": false,
   "omitTags": ["annotation"],
-  "showNodeNames": true,
-  "prefix": "☐ "
+  "prefix": "☐ ",
+  "showNodeNames": true
 }
 
 ::Start

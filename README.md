@@ -16,7 +16,6 @@ The following choicemaps are currently available:
 |----------------|-----|----------------------|
 | Endless Quest #52: Big Trouble (2018) | [Amazon](https://amzn.to/3az0Eiu) | [TW2](https://raw.githubusercontent.com/morbus/gamebook-choicemaps/master/choicemaps/big-trouble--2018--isbn-9781536202441/big-trouble--2018--isbn-9781536202441.tw2) • [DOT](https://raw.githubusercontent.com/morbus/gamebook-choicemaps/master/choicemaps/big-trouble--2018--isbn-9781536202441/big-trouble--2018--isbn-9781536202441.gv) • [SVG](https://raw.githubusercontent.com/morbus/gamebook-choicemaps/master/choicemaps/big-trouble--2018--isbn-9781536202441/big-trouble--2018--isbn-9781536202441.svg) • [PNG](https://raw.githubusercontent.com/morbus/gamebook-choicemaps/master/choicemaps/big-trouble--2018--isbn-9781536202441/big-trouble--2018--isbn-9781536202441.png) |
 | Choose Your Own Adventure: The Haunted House (2007) | [Amazon](https://amzn.to/3ja6A58) | [TW2](https://raw.githubusercontent.com/morbus/gamebook-choicemaps/master/choicemaps/the-haunted-house--2007-reissue--isbn-9781933390512/the-haunted-house--2007-reissue--isbn-9781933390512.tw2) • [DOT](https://raw.githubusercontent.com/morbus/gamebook-choicemaps/master/choicemaps/the-haunted-house--2007-reissue--isbn-9781933390512/the-haunted-house--2007-reissue--isbn-9781933390512.gv) • [SVG](https://raw.githubusercontent.com/morbus/gamebook-choicemaps/master/choicemaps/the-haunted-house--2007-reissue--isbn-9781933390512/the-haunted-house--2007-reissue--isbn-9781933390512.svg) • [PNG](https://raw.githubusercontent.com/morbus/gamebook-choicemaps/master/choicemaps/the-haunted-house--2007-reissue--isbn-9781933390512/the-haunted-house--2007-reissue--isbn-9781933390512.png) |
-| Investigations in Lovecraft Country #1: Alone Against the Flames (2018) | [iOS](https://apps.apple.com/us/app/cthulhu-chronicles/id1343328830) | [TW2](https://raw.githubusercontent.com/morbus/gamebook-choicemaps/master/choicemaps/investigations-in-lovecraft-country-1-alone-against-the-flames--2018--ios-id1343328830/investigations-in-lovecraft-country-1-alone-against-the-flames--2018--ios-id1343328830.tw2) • [DOT](https://raw.githubusercontent.com/morbus/gamebook-choicemaps/master/choicemaps/investigations-in-lovecraft-country-1-alone-against-the-flames--2018--ios-id1343328830/investigations-in-lovecraft-country-1-alone-against-the-flames--2018--ios-id1343328830.gv) • [SVG](https://raw.githubusercontent.com/morbus/gamebook-choicemaps/master/choicemaps/investigations-in-lovecraft-country-1-alone-against-the-flames--2018--ios-id1343328830/investigations-in-lovecraft-country-1-alone-against-the-flames--2018--ios-id1343328830.svg) • [PNG](https://raw.githubusercontent.com/morbus/gamebook-choicemaps/master/choicemaps/investigations-in-lovecraft-country-1-alone-against-the-flames--2018--ios-id1343328830/investigations-in-lovecraft-country-1-alone-against-the-flames--2018--ios-id1343328830.png) |
 
 ## Generating a choicemap
 
@@ -62,13 +61,9 @@ Then:
 # TODO
 
 * DotGraph: Alphabetize tags when "Color by tag" is enabled?
-* DotGraph: Use Dotgraph's Settings passage not StorySettings.
 * README.md: Need an intro to the "Generating a choicemap" section.
 * README.md: Document the allowed values for the GBCMDetails passage.
 * README.md: Finish documenting how to generate your own choicemap.
 * README.md: Add note about wordy file naming scheme.
-* GBCMDetails: We need more details in the title or metadata.
-* GBCMDetails: "page-numbers" and "passage-numbers"?
 * Replace .gitignore with your current standard monstrosity.
 * Replace the iOS Alone Against the Flames with the Chaosium PDF version?
-* Add checkboxes to all the existing outputs, for printing/checking?

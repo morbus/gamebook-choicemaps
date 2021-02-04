@@ -3,192 +3,189 @@ rankdir=TB
 
 
 "Start" [shape=doublecircle style="filled,bold" fillcolor="#C8C8C8" label="☐ Start" tooltip="4"]
-"Start" -> "1"
+"Start" -> "2"
 
-"1" [fillcolor="#FFFFFF" label="☐ 1" tooltip="5"]
-"1" -> "2"
-
-"2" [fillcolor="#FFFFFF" label="☐ 2" tooltip="6"]
+"2" [fillcolor="#FFFFFF" label="☐ 2" tooltip="5"]
 "2" -> "3"
 
-"3" [fillcolor="#FFFFFF" label="☐ 3" tooltip="7"]
+"3" [fillcolor="#FFFFFF" label="☐ 3" tooltip="6"]
 "3" -> "4"
 
-"4" [fillcolor="#FFFFFF" label="☐ 4" tooltip="8"]
+"4" [fillcolor="#FFFFFF" label="☐ 4" tooltip="7"]
 "4" -> "7"
 "4" -> "11"
 
-"6" [fillcolor="#FFFFFF" label="☐ 6" tooltip="9"]
+"6" [fillcolor="#FFFFFF" label="☐ 6" tooltip="8"]
 "6" -> "23"
 "6" -> "37"
 
-"7" [fillcolor="#FFFFFF" label="☐ 7" tooltip="10"]
+"7" [fillcolor="#FFFFFF" label="☐ 7" tooltip="9"]
 "7" -> "15"
 "7" -> "17"
 
-"8" [fillcolor="#FFFFFF" label="☐ 8" tooltip="11"]
+"8" [fillcolor="#FFFFFF" label="☐ 8" tooltip="10"]
 "8" -> "20"
 "8" -> "21"
 
-"9" [fillcolor="#FFFFFF" label="☐ 9" tooltip="12"]
+"9" [fillcolor="#FFFFFF" label="☐ 9" tooltip="11"]
 "9" -> "10"
 
-"10" [fillcolor="#FFFFFF" label="☐ 10" tooltip="13"]
+"10" [fillcolor="#FFFFFF" label="☐ 10" tooltip="12"]
 "10" -> "64"
 
-"11" [fillcolor="#FFFFFF" label="☐ 11" tooltip="14"]
+"11" [fillcolor="#FFFFFF" label="☐ 11" tooltip="13"]
 "11" -> "12"
 
-"12" [fillcolor="#FFFFFF" label="☐ 12" tooltip="15"]
+"12" [fillcolor="#FFFFFF" label="☐ 12" tooltip="14"]
 "12" -> "8"
 "12" -> "14"
 
-"14" [fillcolor="#FFFFFF" label="☐ 14" tooltip="16"]
+"14" [fillcolor="#FFFFFF" label="☐ 14" tooltip="15"]
 "14" -> "6"
 "14" -> "16"
 
-"15" [fillcolor="#FFFFFF" label="☐ 15" tooltip="17"]
+"15" [fillcolor="#FFFFFF" label="☐ 15" tooltip="16"]
 "15" -> "26"
 "15" -> "28"
 
-"16" [fillcolor="#FFFFFF" label="☐ 16" tooltip="18"]
+"16" [fillcolor="#FFFFFF" label="☐ 16" tooltip="17"]
 "16" -> "48"
 
-"17" [fillcolor="#FFFFFF" label="☐ 17" tooltip="19"]
+"17" [fillcolor="#FFFFFF" label="☐ 17" tooltip="18"]
 "17" -> "31"
 "17" -> "45"
 
-"18" [fillcolor="#FFFFFF" label="☐ 18" tooltip="20"]
+"18" [fillcolor="#FFFFFF" label="☐ 18" tooltip="19"]
 "18" -> "50"
 "18" -> "69"
 
-"20" [fillcolor="#FFFFFF" label="☐ 20" tooltip="21"]
+"20" [fillcolor="#FFFFFF" label="☐ 20" tooltip="20"]
 "20" -> "33"
 "20" -> "71"
 
-"21" [fillcolor="#FFFFFF" label="☐ 21" tooltip="22"]
+"21" [fillcolor="#FFFFFF" label="☐ 21" tooltip="21"]
 "21" -> "22"
 
-"22" [fillcolor="#FFFFFF" label="☐ 22" tooltip="23"]
+"22" [fillcolor="#FFFFFF" label="☐ 22" tooltip="22"]
 "22" -> "25"
 
-"23" [fillcolor="#FFFFFF" label="☐ 23" tooltip="24"]
+"23" [fillcolor="#FFFFFF" label="☐ 23" tooltip="23"]
 "23" -> "43"
 "23" -> "47"
 
-"24" [shape=egg style="filled,bold" fillcolor="#C8C8C8" label="☐ 24" tooltip="25"]
+"24" [shape=egg style="filled,bold" fillcolor="#C8C8C8" label="☐ 24" tooltip="24"]
 
-"25" [fillcolor="#FFFFFF" label="☐ 25" tooltip="26"]
+"25" [fillcolor="#FFFFFF" label="☐ 25" tooltip="25"]
 "25" -> "35"
 "25" -> "67"
 
-"26" [fillcolor="#FFFFFF" label="☐ 26" tooltip="27"]
+"26" [fillcolor="#FFFFFF" label="☐ 26" tooltip="26"]
 "26" -> "27"
 
-"27" [fillcolor="#FFFFFF" label="☐ 27" tooltip="28"]
+"27" [fillcolor="#FFFFFF" label="☐ 27" tooltip="27"]
 "27" -> "55"
 
-"28" [fillcolor="#FFFFFF" label="☐ 28" tooltip="29"]
+"28" [fillcolor="#FFFFFF" label="☐ 28" tooltip="28"]
 "28" -> "59"
 
-"29" [shape=egg style="filled,bold" fillcolor="#C8C8C8" label="☐ 29" tooltip="30"]
+"29" [shape=egg style="filled,bold" fillcolor="#C8C8C8" label="☐ 29" tooltip="29"]
 
-"31" [fillcolor="#FFFFFF" label="☐ 31" tooltip="31"]
+"31" [fillcolor="#FFFFFF" label="☐ 31" tooltip="30"]
 "31" -> "61"
 
-"33" [fillcolor="#FFFFFF" label="☐ 33" tooltip="32"]
+"33" [fillcolor="#FFFFFF" label="☐ 33" tooltip="31"]
 "33" -> "34"
 
-"34" [fillcolor="#FFFFFF" label="☐ 34" tooltip="33"]
+"34" [fillcolor="#FFFFFF" label="☐ 34" tooltip="32"]
 "34" -> "63"
 "34" -> "68"
 
-"35" [fillcolor="#FFFFFF" label="☐ 35" tooltip="34"]
+"35" [fillcolor="#FFFFFF" label="☐ 35" tooltip="33"]
 "35" -> "36"
 
-"36" [shape=egg style="filled,bold" fillcolor="#C8C8C8" label="☐ 36" tooltip="35"]
+"36" [shape=egg style="filled,bold" fillcolor="#C8C8C8" label="☐ 36" tooltip="34"]
 
-"37" [fillcolor="#FFFFFF" label="☐ 37" tooltip="36"]
+"37" [fillcolor="#FFFFFF" label="☐ 37" tooltip="35"]
 "37" -> "38"
 
-"38" [fillcolor="#FFFFFF" label="☐ 38" tooltip="37"]
+"38" [fillcolor="#FFFFFF" label="☐ 38" tooltip="36"]
 "38" -> "9"
 
-"39" [fillcolor="#FFFFFF" label="☐ 39" tooltip="38"]
+"39" [fillcolor="#FFFFFF" label="☐ 39" tooltip="37"]
 "39" -> "40"
 
-"40" [fillcolor="#FFFFFF" label="☐ 40" tooltip="39"]
+"40" [fillcolor="#FFFFFF" label="☐ 40" tooltip="38"]
 "40" -> "41"
 
-"41" [fillcolor="#FFFFFF" label="☐ 41" tooltip="40"]
+"41" [fillcolor="#FFFFFF" label="☐ 41" tooltip="39"]
 "41" -> "42"
 
-"42" [shape=egg style="filled,bold" fillcolor="#C8C8C8" label="☐ 42" tooltip="41"]
+"42" [shape=egg style="filled,bold" fillcolor="#C8C8C8" label="☐ 42" tooltip="40"]
 
-"43" [fillcolor="#FFFFFF" label="☐ 43" tooltip="42"]
+"43" [fillcolor="#FFFFFF" label="☐ 43" tooltip="41"]
 "43" -> "44"
 
-"44" [shape=egg style="filled,bold" fillcolor="#C8C8C8" label="☐ 44" tooltip="43"]
+"44" [shape=egg style="filled,bold" fillcolor="#C8C8C8" label="☐ 44" tooltip="42"]
 
-"45" [fillcolor="#FFFFFF" label="☐ 45" tooltip="44"]
+"45" [fillcolor="#FFFFFF" label="☐ 45" tooltip="43"]
 "45" -> "24"
 "45" -> "29"
 
-"47" [shape=egg style="filled,bold" fillcolor="#C8C8C8" label="☐ 47" tooltip="45"]
+"47" [shape=egg style="filled,bold" fillcolor="#C8C8C8" label="☐ 47" tooltip="44"]
 
-"48" [fillcolor="#FFFFFF" label="☐ 48" tooltip="46"]
+"48" [fillcolor="#FFFFFF" label="☐ 48" tooltip="45"]
 "48" -> "18"
 "48" -> "39"
 "48" -> "70"
 
-"49" [shape=egg style="filled,bold" fillcolor="#C8C8C8" label="☐ 49" tooltip="47"]
+"49" [shape=egg style="filled,bold" fillcolor="#C8C8C8" label="☐ 49" tooltip="46"]
 
-"50" [shape=egg style="filled,bold" fillcolor="#C8C8C8" label="☐ 50" tooltip="48"]
+"50" [shape=egg style="filled,bold" fillcolor="#C8C8C8" label="☐ 50" tooltip="47"]
 
-"51" [shape=egg style="filled,bold" fillcolor="#C8C8C8" label="☐ 51" tooltip="49"]
+"51" [shape=egg style="filled,bold" fillcolor="#C8C8C8" label="☐ 51" tooltip="48"]
 
-"52" [fillcolor="#FFFFFF" label="☐ 52" tooltip="50"]
+"52" [fillcolor="#FFFFFF" label="☐ 52" tooltip="49"]
 "52" -> "53"
 
-"53" [fillcolor="#FFFFFF" label="☐ 53" tooltip="51"]
+"53" [fillcolor="#FFFFFF" label="☐ 53" tooltip="50"]
 "53" -> "54"
 
-"54" [shape=egg style="filled,bold" fillcolor="#C8C8C8" label="☐ 54" tooltip="52"]
+"54" [shape=egg style="filled,bold" fillcolor="#C8C8C8" label="☐ 54" tooltip="51"]
 
-"55" [fillcolor="#FFFFFF" label="☐ 55" tooltip="53"]
+"55" [fillcolor="#FFFFFF" label="☐ 55" tooltip="52"]
 "55" -> "57"
 
-"57" [fillcolor="#FFFFFF" label="☐ 57" tooltip="54"]
+"57" [fillcolor="#FFFFFF" label="☐ 57" tooltip="53"]
 "57" -> "51"
 
-"59" [fillcolor="#FFFFFF" label="☐ 59" tooltip="55"]
+"59" [fillcolor="#FFFFFF" label="☐ 59" tooltip="54"]
 "59" -> "60"
 
-"60" [shape=egg style="filled,bold" fillcolor="#C8C8C8" label="☐ 60" tooltip="56"]
+"60" [shape=egg style="filled,bold" fillcolor="#C8C8C8" label="☐ 60" tooltip="55"]
 
-"61" [fillcolor="#FFFFFF" label="☐ 61" tooltip="57"]
+"61" [fillcolor="#FFFFFF" label="☐ 61" tooltip="56"]
 "61" -> "62"
 
-"62" [shape=egg style="filled,bold" fillcolor="#C8C8C8" label="☐ 62" tooltip="58"]
+"62" [shape=egg style="filled,bold" fillcolor="#C8C8C8" label="☐ 62" tooltip="57"]
 
-"63" [shape=egg style="filled,bold" fillcolor="#C8C8C8" label="☐ 63" tooltip="59"]
+"63" [shape=egg style="filled,bold" fillcolor="#C8C8C8" label="☐ 63" tooltip="58"]
 
-"64" [fillcolor="#FFFFFF" label="☐ 64" tooltip="60"]
+"64" [fillcolor="#FFFFFF" label="☐ 64" tooltip="59"]
 "64" -> "65"
 
-"65" [shape=egg style="filled,bold" fillcolor="#C8C8C8" label="☐ 65" tooltip="61"]
+"65" [shape=egg style="filled,bold" fillcolor="#C8C8C8" label="☐ 65" tooltip="60"]
 
-"67" [shape=egg style="filled,bold" fillcolor="#C8C8C8" label="☐ 67" tooltip="62"]
+"67" [shape=egg style="filled,bold" fillcolor="#C8C8C8" label="☐ 67" tooltip="61"]
 
-"68" [shape=egg style="filled,bold" fillcolor="#C8C8C8" label="☐ 68" tooltip="63"]
+"68" [shape=egg style="filled,bold" fillcolor="#C8C8C8" label="☐ 68" tooltip="62"]
 
-"69" [shape=egg style="filled,bold" fillcolor="#C8C8C8" label="☐ 69" tooltip="64"]
+"69" [shape=egg style="filled,bold" fillcolor="#C8C8C8" label="☐ 69" tooltip="63"]
 
-"70" [fillcolor="#FFFFFF" label="☐ 70" tooltip="65"]
+"70" [fillcolor="#FFFFFF" label="☐ 70" tooltip="64"]
 "70" -> "49"
 "70" -> "52"
 
-"71" [shape=egg style="filled,bold" fillcolor="#C8C8C8" label="☐ 71" tooltip="66"]
+"71" [shape=egg style="filled,bold" fillcolor="#C8C8C8" label="☐ 71" tooltip="65"]
 
 labelloc="t"
 

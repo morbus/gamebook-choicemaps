@@ -5,55 +5,65 @@
 
 This is a collection of gamebook choicemaps in multiple formats:
 
-  1. `TITLE.tw2`: a plain-text readable file [in Twee2 format](https://dan-q.github.io/twee2/)
-  2. `TITLE.gv`: a DOT file for use with [Graphviz](http://www.graphviz.org/) and other readers
-  3. `TITLE.svg`: a render of the DOT file in SVG format
-  3. `TITLE.png`: a conversion of the SVG file to PNG format
+  1. `TITLE.twee`: a plain-text readable file [in Twee3 format](https://github.com/iftechfoundation/twine-specs/blob/master/twee-3-specification.md).
+  2. `TITLE.gv`: a DOT file for use with [Graphviz](http://www.graphviz.org/) and other readers.
+  3. `TITLE.svg`: a render of the DOT file in SVG format.
+  3. `TITLE.png`: a conversion of the SVG file to PNG format.
 
 The following choicemaps are currently available:
 
 | Gamebook title | Buy | Available choicemaps |
 |----------------|-----|----------------------|
-| Endless Quest #52: Big Trouble (2018) | [Amazon](https://amzn.to/3az0Eiu) | [TW2](https://raw.githubusercontent.com/morbus/gamebook-choicemaps/master/choicemaps/big-trouble--2018--isbn-9781536202441/big-trouble--2018--isbn-9781536202441.tw2) • [DOT](https://raw.githubusercontent.com/morbus/gamebook-choicemaps/master/choicemaps/big-trouble--2018--isbn-9781536202441/big-trouble--2018--isbn-9781536202441.gv) • [SVG](https://raw.githubusercontent.com/morbus/gamebook-choicemaps/master/choicemaps/big-trouble--2018--isbn-9781536202441/big-trouble--2018--isbn-9781536202441.svg) • [PNG](https://raw.githubusercontent.com/morbus/gamebook-choicemaps/master/choicemaps/big-trouble--2018--isbn-9781536202441/big-trouble--2018--isbn-9781536202441.png) |
-| Choose Your Own Adventure: The Haunted House (2007) | [Amazon](https://amzn.to/3ja6A58) | [TW2](https://raw.githubusercontent.com/morbus/gamebook-choicemaps/master/choicemaps/the-haunted-house--2007-reissue--isbn-9781933390512/the-haunted-house--2007-reissue--isbn-9781933390512.tw2) • [DOT](https://raw.githubusercontent.com/morbus/gamebook-choicemaps/master/choicemaps/the-haunted-house--2007-reissue--isbn-9781933390512/the-haunted-house--2007-reissue--isbn-9781933390512.gv) • [SVG](https://raw.githubusercontent.com/morbus/gamebook-choicemaps/master/choicemaps/the-haunted-house--2007-reissue--isbn-9781933390512/the-haunted-house--2007-reissue--isbn-9781933390512.svg) • [PNG](https://raw.githubusercontent.com/morbus/gamebook-choicemaps/master/choicemaps/the-haunted-house--2007-reissue--isbn-9781933390512/the-haunted-house--2007-reissue--isbn-9781933390512.png) |
+| Endless Quest #52: Big Trouble (2018) | [Amazon](https://amzn.to/3az0Eiu) | [TWEE](https://raw.githubusercontent.com/morbus/gamebook-choicemaps/master/choicemaps/big-trouble--2018--isbn-9781536202441/big-trouble--2018--isbn-9781536202441.twee) • [DOT](https://raw.githubusercontent.com/morbus/gamebook-choicemaps/master/choicemaps/big-trouble--2018--isbn-9781536202441/big-trouble--2018--isbn-9781536202441.gv) • [SVG](https://raw.githubusercontent.com/morbus/gamebook-choicemaps/master/choicemaps/big-trouble--2018--isbn-9781536202441/big-trouble--2018--isbn-9781536202441.svg) • [PNG](https://raw.githubusercontent.com/morbus/gamebook-choicemaps/master/choicemaps/big-trouble--2018--isbn-9781536202441/big-trouble--2018--isbn-9781536202441.png) |
+| Choose Your Own Adventure: The Haunted House (2007) | [Amazon](https://amzn.to/3ja6A58) | [TWEE](https://raw.githubusercontent.com/morbus/gamebook-choicemaps/master/choicemaps/the-haunted-house--2007-reissue--isbn-9781933390512/the-haunted-house--2007-reissue--isbn-9781933390512.twee) • [DOT](https://raw.githubusercontent.com/morbus/gamebook-choicemaps/master/choicemaps/the-haunted-house--2007-reissue--isbn-9781933390512/the-haunted-house--2007-reissue--isbn-9781933390512.gv) • [SVG](https://raw.githubusercontent.com/morbus/gamebook-choicemaps/master/choicemaps/the-haunted-house--2007-reissue--isbn-9781933390512/the-haunted-house--2007-reissue--isbn-9781933390512.svg) • [PNG](https://raw.githubusercontent.com/morbus/gamebook-choicemaps/master/choicemaps/the-haunted-house--2007-reissue--isbn-9781933390512/the-haunted-house--2007-reissue--isbn-9781933390512.png) |
 
 ## Generating a choicemap
 
 ### Dependency installation
 
 ```bash
-mkdir bin && cd bin
+# All dependencies go in bin.
+mkdir bin bin/storyformats
+cd bin
 
-# Twee2 from https://dan-q.github.io/twee2/.
-git clone git@github.com:Dan-Q/twee2.git
-cd twee2
-gem build twee2.gemspec
-sudo gem install twee2-0.5.0.gem
+# Tweego from https://www.motoslave.net/tweego/.
+git clone https://github.com/tmedwards/tweego.git
+cd tweego
+go get
+go build
+mv tweego /usr/local/bin/tweego
+cd ..
 
-# DotGraph from http://mcdemarco.net/tools/scree/dotgraph/.
+# DotGraph story format from http://mcdemarco.net/tools/scree/dotgraph/.
 git clone git@github.com:mcdemarco/dotgraph.git
 cd dotgraph
 npm install
 grunt package
+cp -R dist/Twine2/offline/DotGraph ../storyformats
 
-# Install inkscape via your OS's package manager for SVG to PNG conversion.
-# For OS X, the quickest success was with brew and "brew install inkscape".
+# Confirm that tweego can see the installed story formats.
+# Add absolute path TWEEGO_PATH to your env for shorter commands.
+cd ../../
+TWEEGO_PATH=bin/storyformats tweego --list-formats
+ 
+# Install inkscape for SVG to PNG conversion.
+# For OS X, the quickest success was with "brew install inkscape".
 ```
 
 ### Choicemap generation
 
-Write your choicemap as a Twee2 file, then export it into DotGraph as:
+Write your choicemap as a Twee3 file, then export it into DotGraph as:
 
 ```bash
 cd choicemaps/TITLE
-twee2 build --format=../../bin/dotgraph/dist/Twine2/online/DotGraph TITLE.tw2 TITLE.html
+tweego --format DotGraph --output TITLE.html TITLE.twee
 ```
 
 Then:
 
   1. Open the `.html` file in your browser.
   2. Fiddle with the settings until the choicemap looks good.
-  3. Codify the settings in the `DotGraphSettings` passage in the `.tw2`.
+  3. Codify the settings in the `DotGraphSettings` passage in the `.twee`.
   5. "Save Image" the SVG into a properly named `.svg` file.
   4. "Save Source" the DOT source into a properly named `.gv` file.
   6. Convert the SVG to PNG with `inkscape --export-type=png --export-dpi=300 TITLE.svg`
@@ -64,6 +74,7 @@ Then:
 * README.md: Need an intro to the "Generating a choicemap" section.
 * README.md: Document the allowed values for the GBCMDetails passage.
 * README.md: Finish documenting how to generate your own choicemap.
-* README.md: Add note about wordy file naming scheme.
+* README.md: Add note about wordy file naming scheme?
 * Replace .gitignore with your current standard monstrosity.
 * Replace the iOS Alone Against the Flames with the Chaosium PDF version?
+* Can we use tag-colors in twee3 for DotGraph tag colors?

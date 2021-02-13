@@ -41,6 +41,12 @@ npm install
 grunt package
 cp -R dist/Twine2/offline/DotGraph ../storyformats
 
+# SugarCube story format from http://www.motoslave.net/sugarcube/2/.
+cd ../storyformats
+curl -LO https://github.com/tmedwards/sugarcube-2/releases/download/v2.34.1/sugarcube-2.34.1-for-twine-2.1-local.zip
+unzip sugarcube-2.34.1-for-twine-2.1-local.zip
+rm sugarcube-2.34.1-for-twine-2.1-local.zip
+
 # Confirm that tweego can see the installed story formats.
 # Add absolute path TWEEGO_PATH to your env for shorter commands.
 cd ../../

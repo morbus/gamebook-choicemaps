@@ -45,7 +45,7 @@ cp -R dist/Twine2/offline/DotGraph ../storyformats
 cd ../storyformats
 curl -LO https://github.com/tmedwards/sugarcube-2/releases/download/v2.34.1/sugarcube-2.34.1-for-twine-2.1-local.zip
 unzip sugarcube-2.34.1-for-twine-2.1-local.zip
-rm sugarcube-2.34.1-for-twine-2.1-local.zip
+rm -f sugarcube-2.34.1-for-twine-2.1-local.zip
 
 # Confirm that tweego can see the installed story formats.
 # Add absolute path TWEEGO_PATH to your env for shorter commands.
@@ -81,6 +81,5 @@ Then:
 * README.md: Document the allowed values for the GBCMDetails passage.
 * README.md: Finish documenting how to generate your own choicemap.
 * README.md: Add note about wordy file naming scheme?
-* Replace .gitignore with your current standard monstrosity.
 * Replace the iOS Alone Against the Flames with the Chaosium PDF version?
 * Can we use tag-colors in twee3 for DotGraph tag colors?
